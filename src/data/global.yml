@@ -2,3 +2,14 @@ numbers:
   - icon:
     number: 5000
     title: huhu
+  - icon:
+    number: 3000
+    title: hihi
+  - icon:
+    number: 4000
+    title: haha
+
+  menu:
+   - title: One
+   - title: Two
+   - title: Three
