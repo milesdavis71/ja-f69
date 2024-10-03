@@ -7,6 +7,16 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
+    <script type="module">
+      import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: '#my-gallery',
+        children: 'a',
+        pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
+      });
+      lightbox.init();
+    </script>
+    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
 <body>

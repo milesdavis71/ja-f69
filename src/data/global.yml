@@ -1,15 +1,38 @@
 numbers:
   - icon:
-    number: 5000
+    number: 1000
     title: huhu
   - icon:
-    number: 3000
+    number: 2000
     title: hihi
   - icon:
-    number: 4000
+    number: 3000
     title: haha
+  - icon:
+    number: 4000
+    title: hoho
+  - icon:
+    number: 5000
+    title: hehe
+  - icon:
+    number: 6000
+    title: huhu
 
-  menu:
-   - title: One
-   - title: Two
-   - title: Three
+menu:
+  - title: One
+  - title: Two
+  - title: Three
+
+gallery:
+    - title: szte-gyakorló-gimnázium.jpg
+    - title: kiskunhalasi-bibó-istván-gimnázium.jpg
+    - title: mezőkovácsházi-hunyadi-jános-általános-iskola-gimn-és-koll.jpg
+    - title: szegedi-szc-krúdy-gyula-szakképző-iskola.jpg
+    - title: szegedi-szc-vasvári-pál-gazdasági-és-informatikai-technikum.jpg
+    - title: szegedi-szc-vedres-istván-technikum.jpg
+    - title: kecskeméti-bolyai-jános-gimnázium.jpg
+    - title: kecskeméti-református- gimnázium.jpg
+    - title: kiskunfélegyházi-móra-ferenc-gimnázium.jpg
+    - title: andrássy-gyula-gimnázium-és-kollégium.jpg
+    - title: békéscsabai-belvárosi-általános-iskola-és-gimnázium.jpg
+    - title: csongrádi-batsányi-jános-gimnázium-és-kollégium.jpg
