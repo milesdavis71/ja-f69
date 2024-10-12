@@ -24,15 +24,60 @@ menu:
   - title: Three
 
 gallery:
-    - title: szte-gyakorló-gimnázium.jpg
-    - title: kiskunhalasi-bibó-istván-gimnázium.jpg
-    - title: mezőkovácsházi-hunyadi-jános-általános-iskola-gimn-és-koll.jpg
-    - title: szegedi-szc-krúdy-gyula-szakképző-iskola.jpg
-    - title: szegedi-szc-vasvári-pál-gazdasági-és-informatikai-technikum.jpg
-    - title: szegedi-szc-vedres-istván-technikum.jpg
-    - title: kecskeméti-bolyai-jános-gimnázium.jpg
-    - title: kecskeméti-református- gimnázium.jpg
-    - title: kiskunfélegyházi-móra-ferenc-gimnázium.jpg
-    - title: andrássy-gyula-gimnázium-és-kollégium.jpg
-    - title: békéscsabai-belvárosi-általános-iskola-és-gimnázium.jpg
-    - title: csongrádi-batsányi-jános-gimnázium-és-kollégium.jpg
+  "2024_25":
+    ps:
+      hatartalanul:
+        - title: hatartalanul_2024_ps_01
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_02
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_03
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_04
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_05
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_06
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_07
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_08
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_09
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_10
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_11
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_12
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_13
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_14
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_15
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_16
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_17
+          width: "1200"
+          height: "900"
+        - title: hatartalanul_2024_ps_18
+          width: "1200"
+          height: "900"
