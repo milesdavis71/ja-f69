@@ -394,9 +394,9 @@ F_BREAKPOINT=("0px" "0px" "320px" "640px" "1024px" "1920px")
 # options for ImageMagick convert
 F_CONV=(
   # Thumbnails: max. 120x120, non-cropped (-coalesce added for animated GIFs)
-  '-coalesce -auto-orient -thumbnail 120x120 -quality 75'
+  '-coalesce -auto-orient -thumbnail 285x285 -quality 75'
   # Thumbnails: 120x120, cropped
-  '-coalesce -auto-orient -thumbnail 120x120^ -gravity center -extent 120x120 -quality 75'
+  '-coalesce -auto-orient -thumbnail 285x285^ -gravity center -extent 285x285 -quality 75'
   # Small screens: max. 320 width, strip EXIF/IPTC/XMP data
   '-coalesce -auto-orient -resize 320> -strip -interlace Plane -quality 50'
   # Medium screens: max. 640 width (no data stripping)
