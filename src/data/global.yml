@@ -27,57 +27,82 @@ gallery:
   "2024_25":
     ps:
       hatartalanul:
-        - title: hatartalanul_2024_ps_01
+        - title: hatartalanul_2024_ps
+          num: "01"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_02
+        - title: hatartalanul_2024_ps
+          num: "02"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_03
+        - title: hatartalanul_2024_ps
+          num: "03"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_04
+        - title: hatartalanul_2024_ps
+          num: "04"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_05
+        - title: hatartalanul_2024_ps
+          num: "05"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_06
+        - title: hatartalanul_2024_ps
+          num: "06"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_07
+        - title: hatartalanul_2024_ps
+          num: "07"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_08
+        - title: hatartalanul_2024_ps
+          num: "08"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_09
+        - title: hatartalanul_2024_ps
+          num: "09"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_10
+        - title: hatartalanul_2024_ps
+          num: "10"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_11
+        - title: hatartalanul_2024_ps
+          num: "11"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_12
+        - title: hatartalanul_2024_ps
+          num: "12"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_13
+        - title: hatartalanul_2024_ps
+          num: "13"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_14
+        - title: hatartalanul_2024_ps
+          num: "14"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_15
+        - title: hatartalanul_2024_ps
+          num: "15"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_16
+        - title: hatartalanul_2024_ps
+          num: "16"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_17
+        - title: hatartalanul_2024_ps
+          num: "17"
           width: "1200"
           height: "900"
-        - title: hatartalanul_2024_ps_18
+        - title: hatartalanul_2024_ps
+          num: "18"
           width: "1200"
           height: "900"
+
+fooldalgallery:
+  "2024_25":
+    ps:
+      - title: hatartalanul_2024_ps
+        url: Határtalanul
+        date: "2024. június 11–15."

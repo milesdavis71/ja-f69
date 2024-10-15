@@ -1,4 +1,4 @@
-<!-- Import PhotoSwipe Styles -->
+{{#ifequal code "style"}}
 <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css"
@@ -15,39 +15,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/defau
   }
 </style>
 
-<!-- Galley wrapper that contains all items -->
-<div
-    id="gallery"
-    class="gallery grid-x small-up-2 medium-up-2 large-up-3"
-    itemscope
-    itemtype="http://schema.org/ImageGallery"
-  >
+{{/ifequal}}
 
-    <!-- Use figure for a more semantic html -->
-    {{#each global.gallery.2024_25.ps.hatartalanul}}
-
-    <div class="cell" style="padding: 1px">
-      <figure
-        itemprop="associatedMedia"
-        itemscope
-        itemtype="http://schema.org/ImageObject"
-      >
-        <a
-          href="{{root}}assets/img/galeria/2024_06_11_Hatartalanul/l/{{title}}.l.jpg"
-          data-width="{{width}}"
-          data-height="{{height}}"
-          itemprop="contentUrl"
-        >
-          <img
-            src="{{root}}assets/img/galeria/2024_06_11_Hatartalanul/t/{{title}}.t.jpg"
-            itemprop="thumbnail"
-            alt="Image description"
-          />
-        </a>
-      </figure>
-    </div>
-    {{/each}}
-</div>
+{{#ifequal code "lightroom"}}
 
 
   <!-- Some spacing 😉 -->
@@ -125,7 +95,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/defau
  <script type="module">
   import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
   const lightbox = new PhotoSwipeLightbox({
-    gallery: '#my-gallery',
+    gallery: '#gallery',
     children: 'a',
     pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
   });
@@ -181,3 +151,5 @@ href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/defau
     })(jQuery);
   </script>
 </div>
+
+{{/ifequal}}
