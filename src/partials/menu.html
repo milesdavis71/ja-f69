@@ -1,31 +1,9 @@
-<ul
-  class="vertical menu accordion-menu"
-  data-accordion-menu
-  data-submenu-toggle="true"
->
-  <li>
-    <a href="https://get.foundation/" target="_blank"
-      >Link here, dropdown there →</a
-    >
-    <ul class="menu vertical nested">
-      <li>
-        <a href="#">Item 1A</a>
-        <ul class="menu vertical nested">
-          <li><a href="{{root}}Határtalanul.html">Galéria</a></li>
-          <li><a href="#">Item 1Aii</a></li>
-          <li><a href="#">Item 1Aiii</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Item 1B</a></li>
-      <li><a href="#">Item 1C</a></li>
-    </ul>
-  </li>
-  <li>
-    <a href="#">Item 2</a>
-    <ul class="menu vertical nested">
-      <li><a href="#">Item 2A</a></li>
-      <li><a href="#">Item 2B</a></li>
-    </ul>
-  </li>
-  <li><a href="#">Item 3</a></li>
+<ul class="vertical menu accordion-menu" data-accordion-menu data-multi-open="false">
+{{#each global.pages}}
+<li>
+  <a href="#">{{title}}</a>
+  {{>submenu type=menu}}
+</li>
+
+{{/each}}
 </ul>

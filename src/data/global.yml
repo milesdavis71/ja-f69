@@ -18,10 +18,25 @@ numbers:
     number: 6000
     title: huhu
 
-menu:
-  - title: One
-  - title: Two
-  - title: Three
+pages:    
+  - title: Főoldal
+    url: #
+  - title: Main1
+    menu: submenu  
+    active: sub1
+    subtitle1: Sub 1
+    suburl1: sub1 
+    subtitle2: Sub 2
+    suburl2: sub2
+  - title: Main2
+    menu: submenu
+    active: sub3
+    subtitle3: Sub 3
+    suburl3: sub3 
+    subtitle4: Sub 4
+    suburl4: sub4
+
+
 
 gallery:
   "2024_25":
