@@ -18,102 +18,106 @@ numbers:
     number: 6000
     title: huhu
 
-pages:    
+pages:
   - title: Főoldal
+    url: "#"
+  - title: Rólunk
+    folder: rolunk
+    url: "#rolunk"
+    menu: main1
+    subtitle1: Munkatársaink
+    suburl1: munkatarsaink
+    subtitle2: Bemutatkozunk
+    suburl2: bemutatkozunk
+    subtitle3: Szegedi Tehetséggondozó Tanács
+    suburl3: szegedi_tehetseggondozo_tanacs
+    subtitle4: Idővonal
+    suburl4: idovonal
+    subtitle5: Sajtómegjelenések
+    suburl5: sajtomegjelenesek
+    subtitle6: Partnerek
+    suburl6: partnerek
+  - title: Híreink
     url: #
-  - title: Main1
-    menu: submenu  
-    active: sub1
-    subtitle1: Sub 1
-    suburl1: sub1 
-    subtitle2: Sub 2
-    suburl2: sub2
-  - title: Main2
-    menu: submenu
-    active: sub3
-    subtitle3: Sub 3
-    suburl3: sub3 
-    subtitle4: Sub 4
-    suburl4: sub4
-
-
+  - title: Híreink
+    url: #
 
 gallery:
-  "2024_25":
-    ps:
-      hatartalanul:
-        - title: hatartalanul_2024_ps
-          num: "01"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "02"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "03"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "04"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "05"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "06"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "07"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "08"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "09"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "10"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "11"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "12"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "13"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "14"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "15"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "16"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "17"
-          width: "1200"
-          height: "900"
-        - title: hatartalanul_2024_ps
-          num: "18"
-          width: "1200"
-          height: "900"
+"2024_25":
+ps:
+hatartalanul:
+  - title: hatartalanul_2024_ps
+    num: "01"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "02"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "03"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "04"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "05"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "06"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "07"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "08"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "09"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "10"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "11"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "12"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "13"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "14"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "15"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "16"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "17"
+    width: "1200"
+    height: "900"
+  - title: hatartalanul_2024_ps
+    num: "18"
+    width: "1200"
+    height: "900"
 
 fooldalgallery:
   "2024_25":

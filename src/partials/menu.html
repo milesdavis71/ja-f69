@@ -1,9 +1,8 @@
-<ul class="vertical menu accordion-menu" data-accordion-menu data-multi-open="false">
 {{#each global.pages}}
-<li>
-  <a href="#">{{title}}</a>
-  {{>submenu type=menu}}
-</li>
-
-{{/each}}
+<ul class="vertical menu accordion-menu" data-accordion-menu>
+  <li>
+    <a href="#">{{title}}</a>
+    {{>submenu type=menu}}
+  </li>
 </ul>
+{{/each}}
