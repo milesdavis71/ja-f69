@@ -3,37 +3,36 @@ unless specified. --}}
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JA build</title>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css" />
-  </head>
-  <body>
-    <div class="grid-y medium-grid-frame">
-      <div class="cell shrink header medium-cell-block-container">
-        <h1>JA build</h1>
-      </div>
-      <div class="cell medium-auto medium-cell-block-container">
-        <div class="grid-x grid-padding-x">
-          <div class="cell medium-3 medium-cell-block-y">
-            <!-- prettier-ignore-start -->
-            {{>menu}}
-            <!-- prettier-ignore-end -->
-          </div>
-          <div class="cell medium-9 medium-cell-block-y">
-            <!-- prettier-ignore-start -->
-            {{> body}}
-            <!-- prettier-ignore-end -->
-          </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JA build</title>
+  <link rel="stylesheet" href="{{root}}assets/css/app.css" />
+</head>
+
+<body>
+  <div class="grid-y medium-grid-frame">
+    <div class="cell shrink header medium-cell-block-container">
+      <h1>JA build</h1>
+    </div>
+    <div class="cell medium-auto medium-cell-block-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell medium-3 medium-cell-block-y">
+          {{>menu}}
+        </div>
+        <div class="cell medium-9 medium-cell-block-y">
+          {{> body}}
         </div>
       </div>
-      <div class="cell shrink footer">
-        <h3>Here's my footer</h3>
-      </div>
     </div>
+    <div class="cell shrink footer">
+      <h3>Here's my footer</h3>
+    </div>
+  </div>
 
-    <script src="{{root}}assets/js/app.js"></script>
-  </body>
+  <script src="{{root}}assets/js/app.js"></script>
+</body>
+
 </html>
