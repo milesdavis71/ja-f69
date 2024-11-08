@@ -1,5 +1,6 @@
 {{#ifequal type 'main1'}}
-<ul class="menu vertical nested {{#ifpage rolunk
+<ul class="menu vertical nested {{#ifpage
+  'rolunk'
   'munkatarsaink'
   'bemutatkozunk'
   'szegedi_tehetseggondozo_tanacs'
@@ -10,7 +11,11 @@
   {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main2'}}
-<ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
+<ul class="menu vertical nested {{#ifpage
+  'kozepiskolai_partneri_program'
+  'a_programrol'
+  'kozepiskolas_tehetsegek_mentora_osztondij'
+}} is-active {{/ifpage}}">
   {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main3'}}

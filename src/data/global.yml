@@ -40,27 +40,27 @@ pages:
   - title: Híreink
     url: #
   - title: Programok
+    folder: programok
     menu: main2
-    subtitle1: Középiskolai Partneri Program
-    suburl1: kozepiskolai_partneri_program
-    subtitle2: A programról
-    suburl2: a_programrol
-    subtitle3: Középiskolás Tehetségek Mentora ösztöndíj
-    suburl3: kozepiskolas_tehetsegek_mentora_osztondij
-    subtitle4: Partneriskolák
-    suburl4: partneriskolak
-    subtitle5: SZTE Juniorok Viadala
-    suburl5: szte_juniorok_viadala
-    subtitle6: Javits! ösztöndíj
-    suburl6: javits_osztondij
-    subtitle7: SZTE Junior Akademiai Előadások
-    suburl7: szte_junior_Akademiai_eloadasok
+    subtitle11: Középiskolai Partneri Program
+    suburl11: kozepiskolai_partneri_program
+    subtitle111: A programról
+    suburl111: a_programrol
+    subtitle112: Középiskolás Tehetségek Mentora ösztöndíj
+    suburl112: kozepiskolas_tehetsegek_mentora_osztondij
+    subtitle113: Partneriskolák
+    suburl113: partneriskolak
+    subtitle114: SZTE Juniorok Viadala
+    suburl114: szte_juniorok_viadala
+    subtitle115: Javits! ösztöndíj
+    suburl115: javits_osztondij
+    subtitle2: SZTE Junior Akadémiai Előadások
+    suburl2: szte_junior_Akademiai_eloadasok
+ 
 
-gallery:
-  "2024_25":
-    ps:
 
-    url: #
+
+   
 
 gallery:
 "2024_25":

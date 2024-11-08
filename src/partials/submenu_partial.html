@@ -2,6 +2,40 @@
 <li><a href="/{{folder}}/{{suburl1}}.html">{{subtitle1}}</a></li>
 {{/if}}
 
+{{#if subtitle11}}
+<li><a href="/{{folder}}/{{suburl11}}.html">{{subtitle11}}</a>
+    <ul class="menu vertical nested {{#ifpage
+        'kozepiskolai_partneri_program'
+    }} is-active {{/ifpage}}">
+        {{#if subtitle111}}
+        <li>
+            <a href="/{{folder}}/{{suburl11}}.html#{{suburl111}}">{{subtitle111}}</a>
+        </li>
+        {{/if}}
+        {{#if subtitle112}}
+        <li>
+            <a href="/{{folder}}/{{suburl11}}.html#{{suburl112}}">{{subtitle112}}</a>
+        </li>
+        {{/if}}
+        {{#if subtitle113}}
+        <li>
+            <a href="/{{folder}}/{{suburl11}}.html#{{suburl113}}">{{subtitle113}}</a>
+        </li>
+        {{/if}}
+        {{#if subtitle114}}
+        <li>
+            <a href="/{{folder}}/{{suburl11}}.html#{{suburl114}}">{{subtitle114}}</a>
+        </li>
+        {{/if}}
+        {{#if subtitle115}}
+        <li>
+            <a href="/{{folder}}/{{suburl11}}#{{suburl115}}.html">{{subtitle115}}</a>
+        </li>
+        {{/if}}
+    </ul>
+</li>
+{{/if}}
+
 {{#if subtitle2}}
 <li><a href="/{{folder}}/{{suburl2}}.html">{{subtitle2}}</a></li>
 {{/if}}
