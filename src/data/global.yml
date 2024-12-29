@@ -20,10 +20,13 @@ numbers:
 
 pages:
   - title: Főoldal
-    url: "#"
+    rightcolumn: menu
+    url: index
+    icon:  home
   - title: Rólunk
     folder: rolunk
     url: "#rolunk"
+    icon: torsos-all
     menu: main1
     subtitle1: Munkatársaink
     suburl1: munkatarsaink
@@ -39,11 +42,13 @@ pages:
     suburl6: partnerek
   - title: Híreink
     url: #
+    icon: volume
   - title: Programok
     folder: programok
     menu: main2
     subtitle11: Középiskolai Partneri Program
     suburl11: kozepiskolai_partneri_program
+    rightcolumn: menu
     subtitle111: A programról
     suburl111: a_programrol
     subtitle112: Középiskolás Tehetségek Mentora ösztöndíj
@@ -55,12 +60,23 @@ pages:
     subtitle115: Javits! ösztöndíj
     suburl115: javits_osztondij
     subtitle2: SZTE Junior Akadémiai Előadások
-    suburl2: szte_junior_Akademiai_eloadasok
- 
-
-
-
-   
+    suburl2: szte_junior_akademiai_eloadasok
+    subtitle31: Versenyek
+    suburl31: versenyek
+    subtitle311: SZTE Juniorok Viadala
+    suburl311: szte_juniorok_viadala
+    subtitle312: SZTE Junior Sakkviadal
+    suburl312: szte_junior_sakkviadal
+    subtitle313: SZTE Junior Innovátorok Ötletverseny
+    suburl313: szte_junior_innovatorok_otletverseny
+    subtitle314: Nobel-Hetek TikTok Videopályázat
+    suburl314: nobel_hetek_tiktok_videopalyazat
+    subtitle315: Both Ödön Közjogtörténeti Emlékverseny
+    suburl315: both_odon_kozjogtorteneti_emlekverseny
+    subtitle316: Bathory István Középiskolai Történelem Tanulmányi Verseny
+    suburl316: bathory_istvan_kozepiskolai_tortenelem_tanulmanyi_verseny
+    subtitle317: Prezentációs Technikák Verseny
+    suburl317: prezentacios_technikak_verseny
 
 gallery:
 "2024_25":

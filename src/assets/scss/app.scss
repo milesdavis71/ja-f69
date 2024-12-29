@@ -63,3 +63,18 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+.current a {
+    color: #FFA500;
+    line-height: 1.3rem;
+}
+
+.is-active-scroll,
+is-active-scroll:hover,
+is-active-scroll:active,
+is-active-scroll:focus {
+    background: #1779ba !important;
+    color: white !important;
+    ;
+}

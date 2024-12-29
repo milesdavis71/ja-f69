@@ -2,7 +2,7 @@ Rólunk
 ------
 Munkatársaink
 Bemutatkozunk
-Szegedi Tehetséggondozó Tanács
+Szegedi_Tehetséggondozó Tanács
 Idővonal
 Sajtómegjelenések
 Partnerek
@@ -17,8 +17,19 @@ Középiskolai Partneri Program
     SZTE Juniorok Viadala
     Javits! ösztöndíj
 SZTE Junior Akadémiai Előadások
-
-
+Versenyek
+    SZTE Juniorok Viadala
+    SZTE Junior Sakkviadal
+    SZTE Junior Innovátorok Ötletverseny
+    Nobel-Hetek TikTok Videopályázat
+    Both Ödön Közjogtörténeti Emlékverseny
+    Báthory István Középiskolai Történelem Tanulmányi Verseny
+    Prezentációs Technikák Verseny
+    Zsebpénzügyes
+Osztálykirándulások
+Workshopok
+Pályaorientációs Tanácsadás
+Pályázatok
 
 
 rolunk
@@ -37,4 +48,18 @@ partneriskolak
 szte_juniorok_viadala
 javits_osztondij
 szte_junior_Akademiai_eloadasok
+versenyek
+szte_juniorok_viadala
+szte_junior_sakkviadal
+szte_junior_innovatorok_otletverseny
+nobel_hetek_tiktok_videopalyazat
+both_odon_kozjogtorteneti_emlekverseny
+bathory_istvan_kozepiskolai_tortenelem_tanulmanyi_verseny
+prezentacios_technikak_verseny
+zsebpenzugyes
+osztalykirandulasok
+workshopok
+palyaorientacios_tanacsadas
+palyazatok
+
 

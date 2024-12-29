@@ -1,8 +1,11 @@
-{{#each global.pages}}
-<ul class="vertical menu accordion-menu" data-accordion-menu>
-  <li>
-    <a href="#">{{title}}</a>
-    {{>submenu type=menu}}
-  </li>
-</ul>
-{{/each}}
+<div class="sticky" data-sticky data-margin-top="0">
+  <h4>Junior Akadémia</h4>
+  {{#each global.pages}}
+  <ul class="vertical menu accordion-menu" data-accordion-menu>
+    <li>
+      <a href="../{{url}}.html"><i class="fi-{{icon}}"></i> {{title}}</a>
+      {{>submenu type=menu}}
+    </li>
+  </ul>
+  {{/each}}
+</div>

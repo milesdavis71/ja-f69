@@ -1,0 +1,42 @@
+<ul class="vertical menu">
+ 
+    <li>
+        <a href="/programok/kozepiskolai_partneri_program.html#a_programrol">A programról</a>
+    </li
+    >
+    
+    <li>
+        <a href="#{{suburl112}}">Hihi</a>
+    </li>
+    
+    <li>
+        <a href="#{{suburl113}}">Haha</a>
+    </li>
+    
+    <li>
+        <a href="#{{suburl114}}">Hehe</a>
+    </li>
+    
+    <li>
+        <a href="#{{suburl115}}.html">Hoho</a>
+    </li>
+    
+
+</ul>
+
+<script>
+    // Get the container element
+var btnContainer = document.getElementById("myDIV");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
