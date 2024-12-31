@@ -20,12 +20,10 @@ numbers:
 
 pages:
   - title: Főoldal
-    rightcolumn: menu
     url: index
     icon:  home
   - title: Rólunk
     folder: rolunk
-    url: "#rolunk"
     icon: torsos-all
     menu: main1
     subtitle1: Munkatársaink
@@ -41,42 +39,88 @@ pages:
     subtitle6: Partnerek
     suburl6: partnerek
   - title: Híreink
-    url: #
-    icon: volume
+    url: hireink
+    icon: megaphone
   - title: Programok
     folder: programok
+    icon: calendar
     menu: main2
-    subtitle11: Középiskolai Partneri Program
-    suburl11: kozepiskolai_partneri_program
-    rightcolumn: menu
-    subtitle111: A programról
-    suburl111: a_programrol
-    subtitle112: Középiskolás Tehetségek Mentora ösztöndíj
-    suburl112: kozepiskolas_tehetsegek_mentora_osztondij
-    subtitle113: Partneriskolák
-    suburl113: partneriskolak
-    subtitle114: SZTE Juniorok Viadala
-    suburl114: szte_juniorok_viadala
-    subtitle115: Javits! ösztöndíj
-    suburl115: javits_osztondij
+    subtitle1: Középiskolai Partneri Program
+    suburl1: kozepiskolai_partneri_program
     subtitle2: SZTE Junior Akadémiai Előadások
     suburl2: szte_junior_akademiai_eloadasok
-    subtitle31: Versenyek
-    suburl31: versenyek
-    subtitle311: SZTE Juniorok Viadala
-    suburl311: szte_juniorok_viadala
-    subtitle312: SZTE Junior Sakkviadal
-    suburl312: szte_junior_sakkviadal
-    subtitle313: SZTE Junior Innovátorok Ötletverseny
-    suburl313: szte_junior_innovatorok_otletverseny
-    subtitle314: Nobel-Hetek TikTok Videopályázat
-    suburl314: nobel_hetek_tiktok_videopalyazat
-    subtitle315: Both Ödön Közjogtörténeti Emlékverseny
-    suburl315: both_odon_kozjogtorteneti_emlekverseny
-    subtitle316: Bathory István Középiskolai Történelem Tanulmányi Verseny
-    suburl316: bathory_istvan_kozepiskolai_tortenelem_tanulmanyi_verseny
-    subtitle317: Prezentációs Technikák Verseny
-    suburl317: prezentacios_technikak_verseny
+    subtitle3: Versenyek
+    suburl3: versenyek
+    subtitle31: SZTE Juniorok Viadala
+    suburl31: szte_juniorok_viadala
+    subtitle32: SZTE Junior Sakkviadal
+    suburl32: szte_junior_sakkviadal
+    subtitle33: SZTE Junior Innovátorok Ötletverseny
+    suburl33: szte_junior_innovatorok_otletverseny
+    subtitle34: Nobel-Hetek TikTok Videopályázat
+    suburl34: nobel_hetek_tiktok_videopalyazat
+    subtitle35: Both Ödön Közjogtörténeti Emlékverseny
+    suburl35: both_odon_kozjogtorteneti_emlekverseny
+    subtitle36: Bathory István Középiskolai Történelem Tanulmányi Verseny
+    suburl36: bathory_istvan_kozepiskolai_tortenelem_tanulmanyi_verseny
+    subtitle37: Prezentációs Technikák Verseny
+    suburl37: prezentacios_technikak_verseny
+    subtitle4: Osztálykirándulások
+    suburl4: osztalykirandulasok
+    subtitle5: Workshopok
+    suburl5: workshopok
+    subtitle6: Pályaorientációs tanácsadás
+    suburl6: palyaorientacios_tanacsadas
+    subtitle7: Pályázatok
+    suburl7: palyazatok
+  - title: Tanfolyamok
+    folder: tanfolyamok
+    icon:
+    menu: main3
+    subtitle1: Emelt szintű érettségire felkészítő tanfolyamok
+    suburl1: emelt_szintu_erettsegire_felkeszito_tanfolyamok
+    subtitle2: Érettségi felkészítő tanfolyamok tanárai
+    suburl2: erettsegi_felkeszito_tanfolyamok_tanarai
+    subtitle3: Tantermi érettségi felkészítő tanfolyamok órarendje
+    suburl3: tantermi_erettsegi_felkeszito_tanfolyamok_orarendje
+    subtitle4: Online érettségi felkészítő tanfolyamok órarendje
+    suburl4:  online_erettsegi_felkeszito_tanfolyamok_orarendje
+    subtitle5: Tanfolyamdíj-visszatérítés
+    suburl5: tanfolyamdij-visszaterites
+  - title: Ösztöndíjak
+    url: osztondijak
+
+magellan:
+  osztondijak:
+  - title: START-Ösztöndíj
+    content: start
+  - title: Javíts! ösztöndíj
+    content: javits
+  - title: Zirzen Janka ösztöndíj
+    content: zirzen
+  - title: TALENT – A Kiválósági lista
+    content: talent
+  - title: Vállalati ösztöndíjak
+    content: vallalati
+  - title: Top élelmiszermérnök
+    content: elelmiszermernok
+  - title: SZTE Junior Akadémia Mentor Díj
+    content: mentor
+  - title: Esélyt a középiskolás tehetségnek
+    content: eselyt
+  - title: Altajisztika ösztöndíj
+    content: altajisztika
+  kkp:
+  - title: A programról
+    content: programrol
+  - title: Középiskolás Tehetségek Mentora ösztöndíj
+    content: ktm_osztondij
+  - title: Partneriskolák
+    content: partneriskolak
+  - title: SZTE Juniorok Viadala
+    content: szte_juniorok_viadala
+  - title: Javíts! ösztöndíj
+    content: javits_osztondij
 
 gallery:
 "2024_25":

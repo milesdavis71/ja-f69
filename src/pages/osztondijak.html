@@ -1,0 +1,12 @@
+---
+title: Ösztöndíjak
+layout: magellan
+---
+
+{{> alap}}
+{{#each global.magellan.osztondijak}}
+<div id="{{content}}" data-magellan-target="{{content}}">
+    <h4>{{title}}</h4>
+    {{> oszt_content type=content}}
+</div>
+{{/each}}

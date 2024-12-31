@@ -8,38 +8,72 @@
   'sajtomegjelenesek'
   'partnerek'
 }} is-active {{/ifpage}}">
-  {{> submenu_partial}}
+    {{> submenu_partial}}
 </ul>
 {{/ifequal}}
 {{#ifequal type 'main2'}}
-<ul class="menu vertical nested {{#ifpage
-  'kozepiskolai_partneri_program'
-}} is-active {{/ifpage}}">
-  {{> submenu_partial}}
+<ul class="menu vertical nested
+    {{#ifpage
+        'kozepiskolai_partneri_program'
+        'szte_junior_akademiai_eloadasok'
+        'versenyek'
+        'szte_juniorok_viadala'
+        'szte_junior_sakkviadal'
+        'szte_junior_innovatorok_otletverseny'
+        'nobel_hetek_tiktok_videopalyazat'
+        'both_odon_kozjogtorteneti_emlekverseny'
+        'bathory_istvan_kozepiskolai_tortenelem_tanulmanyi_verseny'
+        'prezentacios_technikak_verseny'
+        'osztalykirandulasok'
+        'workshopok'
+        'palyaorientacios_tanacsadas'
+        'palyazatok'
+    }}
+    is-active
+    {{/ifpage}}">
+    <li><a href="/{{folder}}/{{suburl1}}.html">{{subtitle1}}</a></li>
+    <li><a href="/{{folder}}/{{suburl2}}.html">{{subtitle2}}</a></li>
+    <li>
+        <a href="#">{{subtitle3}}</a>
+        {{> versenyek_list}}
+    </li>
+    <li><a href="/{{folder}}/{{suburl4}}.html">{{subtitle4}}</a></li>
+    <li><a href="/{{folder}}/{{suburl5}}.html">{{subtitle5}}</a></li>
+    <li><a href="/{{folder}}/{{suburl6}}.html">{{subtitle6}}</a></li>
+    <li><a href="/{{folder}}/{{suburl7}}.html">{{subtitle7}}</a></li>
+
+</ul>
 </ul>
 {{/ifequal}}
+
 {{#ifequal type 'main3'}}
-<ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
-  {{> submenu_partial}}
+<ul class=" menu vertical nested {{#ifpage
+    'emelt_szintu_erettsegire_felkeszito_tanfolyamok'
+'erettsegi_felkeszito_tanfolyamok_tanarai'
+'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
+'online_erettsegi_felkeszito_tanfolyamok_orarendje'
+'tanfolyamdij-visszaterites'
+ }} is-active {{/ifpage}}">
+    {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main4'}}
 <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
-  {{> submenu_partial}}
+    {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main5'}}
 <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
-  {{> submenu_partial}}
+    {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main6'}}
 <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
-  {{> submenu_partial}}
+    {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main7'}}
 <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
-  {{> submenu_partial}}
+    {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main8'}}
 <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
-  {{> submenu_partial}}
+    {{> submenu_partial}}
 </ul>
 {{/ifequal}}

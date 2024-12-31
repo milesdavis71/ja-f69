@@ -17,16 +17,21 @@ unless specified. --}}
 <body>
     <div class="cell medium-auto medium-cell-block-container">
         <div class="grid-x grid-padding-x">
-            <div class="cell medium-3 medium-cell-block-y">
+            <div class="cell medium-3">
                 {{>menu}}
             </div>
-            <div class="cell medium-9 medium-cell-block-y">
+            <div class="cell medium-9">
                 <div class="grid-x grid-padding-x">
                     <div class="cell medium-12 large-9">
                         {{>body}}
                     </div>
                     <div class="cell medium-12 large-3">
-                        {{>right_col}}
+                        {{#ifpage 'kozepiskolai_partneri_program'}}
+                        {{>right_col_menu_kkp}}
+                        {{/ifpage}}
+                        {{#ifpage 'osztondijak'}}
+                        {{>right_col_menu_osztondijak}}
+                        {{/ifpage}}
                     </div>
                 </div>
             </div>
