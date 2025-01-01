@@ -57,11 +57,15 @@
     {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main4'}}
-<ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
+<ul class="menu vertical nested {{#ifpage
+    'szte_intezmenyi_felveteli_pontok'}}
+    is-active {{/ifpage}}">
     {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main5'}}
-<ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
+<ul class="menu vertical nested {{#ifpage
+    'fotoalbumok'
+    'videok' }} is-active {{/ifpage}}">
     {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main6'}}

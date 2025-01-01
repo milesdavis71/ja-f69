@@ -89,6 +89,18 @@ pages:
     suburl5: tanfolyamdij-visszaterites
   - title: Ösztöndíjak
     url: osztondijak
+  - title: Felvételizőknek
+    folder: felvetelizoknek
+    menu: main4
+    subtitle1: SZTE intézményi felvételi pontok
+    suburl1: szte_intezmenyi_felveteli_pontok
+  - title: Galériák
+    folder: galeriak
+    menu: main5
+    subtitle1: Fotóalbumok
+    suburl1: fotoalbumok
+    subtitle2: Videók
+    suburl2: videok
 
 magellan:
   osztondijak:

@@ -1,7 +1,12 @@
 ---
-title: Középiskolai partneri program
+title: Középiskolai Partneri Program
 layout: magellan
 ---
 
 {{> alap}}
-{{> md_kozepiskolai_partneri_program}}
+{{#each global.magellan.kkp}}
+<div id="{{content}}" data-magellan-target="{{content}}">
+    <h4>{{title}}</h4>
+    {{> content_kkp type=content}}
+</div>
+{{/each}}
