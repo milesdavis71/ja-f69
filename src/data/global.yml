@@ -75,7 +75,7 @@ pages:
     suburl7: palyazatok
   - title: Tanfolyamok
     folder: tanfolyamok
-    icon:
+    icon: projection-screen
     menu: main3
     subtitle1: Emelt szintű érettségire felkészítő tanfolyamok
     suburl1: emelt_szintu_erettsegire_felkeszito_tanfolyamok
@@ -89,18 +89,44 @@ pages:
     suburl5: tanfolyamdij-visszaterites
   - title: Ösztöndíjak
     url: osztondijak
+    icon: credit-card
   - title: Felvételizőknek
     folder: felvetelizoknek
+    icon: info
     menu: main4
     subtitle1: SZTE intézményi felvételi pontok
     suburl1: szte_intezmenyi_felveteli_pontok
   - title: Galériák
     folder: galeriak
+    icon: camera
     menu: main5
     subtitle1: Fotóalbumok
     suburl1: fotoalbumok
     subtitle2: Videók
     suburl2: videok
+  - title: Tanítsunk Magyarországért
+    folder: tanitsunk_magyarorszagert
+    icon: heart
+    menu: main6
+    subtitle1: Tájékoztató
+    suburl1: tajekoztato
+    subtitle2: A programban résztvevő iskolák
+    suburl2: a_programban_resztvevo_iskolak
+    subtitle3: Pályázat mentorálásra
+    suburl3: palyazat_mentoralasra
+    subtitle4: TM Partnerek
+    suburl4: tm_partnerek
+    subtitle5: Gyakran Ismételt Kérdések
+    suburl5: gyakran_ismetelt_kerdesek
+    subtitle6: Etikai elvek és adatvédelem
+    suburl6: etikai_elvek_es_adatvedelem
+    subtitle7: Kapcsolat TM
+    suburl7: kapcsolat_tm
+    subtitle8: Tanítsunk Magyarországért honlap
+    suburl8: tanitsunk_magyarorszagert_honlap
+  - title: Kapcsolat
+    url: kapcsolat
+    icon: telephone
 
 magellan:
   osztondijak:

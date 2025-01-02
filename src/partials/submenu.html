@@ -49,10 +49,10 @@
 {{#ifequal type 'main3'}}
 <ul class=" menu vertical nested {{#ifpage
     'emelt_szintu_erettsegire_felkeszito_tanfolyamok'
-'erettsegi_felkeszito_tanfolyamok_tanarai'
-'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
-'online_erettsegi_felkeszito_tanfolyamok_orarendje'
-'tanfolyamdij-visszaterites'
+    'erettsegi_felkeszito_tanfolyamok_tanarai'
+    'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
+    'online_erettsegi_felkeszito_tanfolyamok_orarendje'
+    'tanfolyamdij-visszaterites'
  }} is-active {{/ifpage}}">
     {{> submenu_partial}}
 </ul>
@@ -65,11 +65,20 @@
 {{/ifequal}} {{#ifequal type 'main5'}}
 <ul class="menu vertical nested {{#ifpage
     'fotoalbumok'
-    'videok' }} is-active {{/ifpage}}">
+    'videok'
+}} is-active {{/ifpage}}">
     {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main6'}}
-<ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
+<ul class="menu vertical nested {{#ifpage
+    'tajekoztato'
+    'a_programban_resztvevo_iskolak'
+    'palyazat_mentoralasra'
+    'tm_partnerek'
+    'gyakran_ismetelt_kerdesek'
+    'etikai_elvek_es_adatvedelem'
+    'kapcsolat_tm'
+    'tanitsunk_magyarorszagert_honlap'}} is-active {{/ifpage}}">
     {{> submenu_partial}}
 </ul>
 {{/ifequal}} {{#ifequal type 'main7'}}
