@@ -243,3 +243,21 @@ fooldalgallery:
       - title: hatartalanul_2024_ps
         url: Határtalanul
         date: "2024. június 11–15."
+
+news:
+  huszonnegy:
+    - title: hír1
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír1
+    - title: hír2
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír2
+    - title: hír3
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír3
+    - title: hír4
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír4
+    - title: hír5
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír5
