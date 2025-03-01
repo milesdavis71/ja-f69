@@ -1,0 +1,65 @@
+pages:
+  - title: Főoldal
+    url: index
+    icon:  home
+
+#Rólunk
+  - title: Rólunk
+    folder: rolunk
+    icon: torsos-all
+    menu: rolunk
+    submenu:
+      - title: Munkatársaink
+        page: 'munkatarsaink' 
+        url: rolunk/munkatarsaink
+      - title: Bemutatkozunk
+        page: 'bemutatkozunk'
+        url: rolunk/bemutatkozunk
+      - title: Szegedi Tehetséggondozó Tanács
+        page: 'szegedi_tehetseggondozo_tanacs'
+        url: rolunk/szegedi_tehetseggondozo_tanacs
+      - title: Idővonal
+        url: rolunk/idovonal
+        page: 'idovonal'
+      - title: Sajtómegjelenések
+        url: rolunk/sajtomegjelenesek
+        page: 'sajtomegjelenesek'
+      - title: Partnerek
+        url: rolunk/partnerek
+        page: 'partnerek'
+  
+  #Híreink
+  - title: Híreink
+    url: hireink
+    icon: megaphone
+
+  #Programok
+  - title: Programok
+    folder: programok
+    icon: calendar
+    menu: prog
+    submenu:
+      - title: Középiskolai Partneri Program
+        url: programok/kozepiskolai_partneri_program
+        page: 'kozepiskolai_partneri_program'
+      - title: SZTE Junior Akademiai Előadások
+        url: programok/szte_junior_akademiai_eloadasok
+        page: 'szte_junior_akademiai_eloadasok'
+      - title: Versenyek
+        url: programok/versenyek
+      - title: Osztálykirándulások
+        url: osztalykirandulasok
+      - title: Workshopok
+        url: workshopok
+      - title: Pályaorientációs tanácsadás
+        url: palyaorientacios_tanacsadas
+      - title: Pályázatok
+        url: palyazatok
+        
+#Tanfolyamok
+  - title: Tanfolyamok
+    folder: tanfolyamok
+    icon: projection-screen
+    menu: tanf
+    submenu:
+      

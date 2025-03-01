@@ -1,5 +1,27 @@
+---
+subtitle1: Az SZTE Junior Akadémia tevékenysége számokban
+---
+
 {{>slider}}
 
+<div class="callout small">
+    <p class="text-center">
+        <strong>{{subtitle1}}</strong>
+    </p>
+    <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium" id="test-eq">
+        {{#each global.numbers}}
+        <div class="cell large-4 text-center">
+            <div class="card" data-equalizer-watch>
+                <p class="h1 numbers-card-icon"><i class="step fi-{{icon}}"></i>
+                </p>
+                <p class="h4 numbers-card-number">{{number}}</p>
+                <p class="numbers-card-title">{{title}}</p>
+                </p>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
 <p>
     Lórum ipse már nem zönki, hanem telő. a kultál szamvartos és lomós vicsót, mint a jogos - és sokszor kérdelő -
     komázs.

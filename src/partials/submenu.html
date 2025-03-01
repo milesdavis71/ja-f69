@@ -17,13 +17,6 @@
         'kozepiskolai_partneri_program'
         'szte_junior_akademiai_eloadasok'
         'versenyek'
-        'szte_juniorok_viadala'
-        'szte_junior_sakkviadal'
-        'szte_junior_innovatorok_otletverseny'
-        'nobel_hetek_tiktok_videopalyazat'
-        'both_odon_kozjogtorteneti_emlekverseny'
-        'bathory_istvan_kozepiskolai_tortenelem_tanulmanyi_verseny'
-        'prezentacios_technikak_verseny'
         'osztalykirandulasok'
         'workshopok'
         'palyaorientacios_tanacsadas'
@@ -31,16 +24,17 @@
     }}
     is-active
     {{/ifpage}}">
-    <li><a href="/{{folder}}/{{suburl1}}.html">{{subtitle1}}</a></li>
-    <li><a href="/{{folder}}/{{suburl2}}.html">{{subtitle2}}</a></li>
+    <li {{#ifpage '{{proba}}' }} class="current" {{/ifpage}}><a href="../{{folder}}/{{suburl1}}.html">{{subtitle1}}</a>
+    </li>
+    <li><a href="../{{folder}}/{{suburl2}}.html">{{subtitle2}}</a></li>
     <li>
         <a href="#">{{subtitle3}}</a>
         {{> versenyek_list}}
     </li>
-    <li><a href="/{{folder}}/{{suburl4}}.html">{{subtitle4}}</a></li>
-    <li><a href="/{{folder}}/{{suburl5}}.html">{{subtitle5}}</a></li>
-    <li><a href="/{{folder}}/{{suburl6}}.html">{{subtitle6}}</a></li>
-    <li><a href="/{{folder}}/{{suburl7}}.html">{{subtitle7}}</a></li>
+    <li><a href="../{{folder}}/{{suburl4}}.html">{{subtitle4}}</a></li>
+    <li><a href="../{{folder}}/{{suburl5}}.html">{{subtitle5}}</a></li>
+    <li><a href="../{{folder}}/{{suburl6}}.html">{{subtitle6}}</a></li>
+    <li><a href="../{{folder}}/{{suburl7}}.html">{{subtitle7}}</a></li>
 
 </ul>
 </ul>

@@ -25,7 +25,7 @@ pages:
   - title: Rólunk
     folder: rolunk
     icon: torsos-all
-    menu: main1
+    menu: rolunk
     subtitle1: Munkatársaink
     suburl1: munkatarsaink
     subtitle2: Bemutatkozunk
@@ -44,7 +44,7 @@ pages:
   - title: Programok
     folder: programok
     icon: calendar
-    menu: main2
+    menu: prog
     subtitle1: Középiskolai Partneri Program
     suburl1: kozepiskolai_partneri_program
     subtitle2: SZTE Junior Akadémiai Előadások
@@ -76,7 +76,7 @@ pages:
   - title: Tanfolyamok
     folder: tanfolyamok
     icon: projection-screen
-    menu: main3
+    menu: tanf
     subtitle1: Emelt szintű érettségire felkészítő tanfolyamok
     suburl1: emelt_szintu_erettsegire_felkeszito_tanfolyamok
     subtitle2: Érettségi felkészítő tanfolyamok tanárai
@@ -93,13 +93,13 @@ pages:
   - title: Felvételizőknek
     folder: felvetelizoknek
     icon: info
-    menu: main4
+    menu: felv
     subtitle1: SZTE intézményi felvételi pontok
     suburl1: szte_intezmenyi_felveteli_pontok
   - title: Galériák
     folder: galeriak
     icon: camera
-    menu: main5
+    menu: gal
     subtitle1: Fotóalbumok
     suburl1: fotoalbumok
     subtitle2: Videók
@@ -107,7 +107,7 @@ pages:
   - title: Tanítsunk Magyarországért
     folder: tanitsunk_magyarorszagert
     icon: heart
-    menu: main6
+    menu: tm
     subtitle1: Tájékoztató
     suburl1: tajekoztato
     subtitle2: A programban résztvevő iskolák
@@ -159,7 +159,23 @@ magellan:
     content: szte_juniorok_viadala
   - title: Javíts! ösztöndíj
     content: javits_osztondij
-
+  versenyek:
+  - title: Bathory Istvan Középiskolai Történelem Tanulmányi Verseny
+    content: bath
+  - title: Both Ödön Kozjogtörténeti Emlékverseny
+    content: both
+  - title: Nobel-Hetek TikTok Videopályázat
+    content: nobel
+  - title: Prezentációs Technikák Verseny
+    content: prez
+  - title: SZTE Junior Innovárotok Ötletverseny
+    content: innov
+  - title: SZTE Junior Sakkviadal
+    content: sakkviadal
+  - title: SZTE Juniorok Viadala
+    content: junviadal 
+  
+ 
 gallery:
 "2024_25":
 ps:

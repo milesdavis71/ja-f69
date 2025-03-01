@@ -1,0 +1,120 @@
+pages:
+  - title: Főoldal
+    url: index
+    icon:  home
+  - title: Rólunk
+    folder: rolunk
+    icon: torsos-all
+    menu: rolunk
+    submenu:
+      - title: Munkatársaink
+        page: 'munkatarsaink' 
+        url: rolunk/munkatarsaink
+      - title: Bemutatkozunk
+        page: 'bemutatkozunk'
+        url: rolunk/bemutatkozunk
+      - title: Szegedi Tehetséggondozó Tanács
+        page: 'szegedi_tehetseggondozo_tanacs'
+        url: rolunk/szegedi_tehetseggondozo_tanacs
+      - title: Idővonal
+        url: rolunk/idovonal
+        page: 'idovonal'
+      - title: Sajtómegjelenések
+        url: rolunk/sajtomegjelenesek
+        page: 'sajtomegjelenesek'
+      - title: Partnerek
+        url: rolunk/partnerek
+        page: 'partnerek'
+  - title: Híreink
+    url: hireink
+    icon: megaphone
+  - title: Programok
+    folder: programok
+    icon: calendar
+    menu: prog
+    submenu:
+      - title: Középiskolai Partneri Program
+        url: programok/kozepiskolai_partneri_program
+        page: 'kozepiskolai_partneri_program'
+      - title: SZTE Junior Akademiai Előadások
+        url: programok/szte_junior_akademiai_eloadasok
+        page: 'szte_junior_akademiai_eloadasok'
+      - title: Versenyek
+        url: programok/versenyek
+        submenusub:
+        - title: SZTE Juniorok Viadala
+          url: szte_juniorok_viadala
+        - title: SZTE Junior Sakkviadal
+          url: szte_junior_sakkviadal
+        - title: SZTE Junior Innovátorok Ötletverseny
+          url: szte_junior_innovatorok_otletverseny
+    title34: Nobel-Hetek TikTok Videopályázat
+    url34: nobel_hetek_tiktok_videopalyazat
+    title35: Both Ödön Közjogtörténeti Emlékverseny
+    url35: both_odon_kozjogtorteneti_emlekverseny
+    title36: Bathory István Középiskolai Történelem Tanulmányi Verseny
+    url36: bathory_istvan_kozepiskolai_tortenelem_tanulmanyi_verseny
+    title37: Prezentációs Technikák Verseny
+    url37: prezentacios_technikak_verseny
+    title4: Osztálykirándulások
+    url4: osztalykirandulasok
+    title5: Workshopok
+    url5: workshopok
+    title6: Pályaorientációs tanácsadás
+    url6: palyaorientacios_tanacsadas
+    title7: Pályázatok
+    url7: palyazatok
+  - title: Tanfolyamok
+    folder: tanfolyamok
+    icon: projection-screen
+    menu: tanf
+    subtitle1: Emelt szintű érettségire felkészítő tanfolyamok
+    suburl1: emelt_szintu_erettsegire_felkeszito_tanfolyamok
+    subtitle2: Érettségi felkészítő tanfolyamok tanárai
+    suburl2: erettsegi_felkeszito_tanfolyamok_tanarai
+    subtitle3: Tantermi érettségi felkészítő tanfolyamok órarendje
+    suburl3: tantermi_erettsegi_felkeszito_tanfolyamok_orarendje
+    subtitle4: Online érettségi felkészítő tanfolyamok órarendje
+    suburl4:  online_erettsegi_felkeszito_tanfolyamok_orarendje
+    subtitle5: Tanfolyamdíj-visszatérítés
+    suburl5: tanfolyamdij-visszaterites
+  - title: Ösztöndíjak
+    url: osztondijak
+    icon: credit-card
+  - title: Felvételizőknek
+    folder: felvetelizoknek
+    icon: info
+    menu: felv
+    subtitle1: SZTE intézményi felvételi pontok
+    suburl1: szte_intezmenyi_felveteli_pontok
+  - title: Galériák
+    folder: galeriak
+    icon: camera
+    menu: gal
+    subtitle1: Fotóalbumok
+    suburl1: fotoalbumok
+    subtitle2: Videók
+    suburl2: videok
+  - title: Tanítsunk Magyarországért
+    folder: tanitsunk_magyarorszagert
+    icon: heart
+    menu: tm
+    subtitle1: Tájékoztató
+    suburl1: tajekoztato
+    subtitle2: A programban résztvevő iskolák
+    suburl2: a_programban_resztvevo_iskolak
+    subtitle3: Pályázat mentorálásra
+    suburl3: palyazat_mentoralasra
+    subtitle4: TM Partnerek
+    suburl4: tm_partnerek
+    subtitle5: Gyakran Ismételt Kérdések
+    suburl5: gyakran_ismetelt_kerdesek
+    subtitle6: Etikai elvek és adatvédelem
+    suburl6: etikai_elvek_es_adatvedelem
+    subtitle7: Kapcsolat TM
+    suburl7: kapcsolat_tm
+    subtitle8: Tanítsunk Magyarországért honlap
+    suburl8: tanitsunk_magyarorszagert_honlap
+  - title: Kapcsolat
+    url: kapcsolat
+    icon: telephone

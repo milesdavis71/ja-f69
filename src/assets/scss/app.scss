@@ -64,9 +64,11 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import 'components/number-card';
+
 
 .current a {
-    color: #FFA500;
+    color: $secondary-color;
     line-height: 1.3rem;
 }
 
@@ -78,3 +80,4 @@ is-active-scroll:focus {
     color: white !important;
     ;
 }
+

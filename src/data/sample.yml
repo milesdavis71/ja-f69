@@ -1,0 +1,20 @@
+menu:
+  - title: Home
+    url: /
+    active: true
+  - title: About
+    url: /about
+    submenu:
+      - title: Our Team
+        url: /about/team
+      - title: Our History
+        url: /about/history
+  - title: Services
+    url: /services
+    submenu:
+      - title: Web Development
+        url: /services/web
+      - title: SEO
+        url: /services/seo
+  - title: Contact
+    url: /contact

@@ -1,0 +1,20 @@
+{{#ifequal type 'rolunk'}}
+<ul class="menu vertical nested {{#ifpage
+  'rolunk'
+  'munkatarsaink'
+  'bemutatkozunk'
+  'szegedi_tehetseggondozo_tanacs'
+  'idovonal'
+  'sajtomegjelenesek'
+  'partnerek'
+}} is-active {{/ifpage}}">
+  {{/ifequal}}
+
+
+  {{#ifequal type 'prog'}}
+  <ul class=" menu vertical nested {{#ifpage
+    'kozepiskolai_partneri_program'
+    'szte_junior_akademiai_eloadasok'
+    'versenyek'
+ }} is-active {{/ifpage}}">
+    {{/ifequal}}

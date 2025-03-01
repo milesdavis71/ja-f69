@@ -1,0 +1,12 @@
+---
+title: Versenyek
+layout: magellan
+---
+
+{{> alap}}
+{{#each global.magellan.versenyek}}
+<div id="{{content}}" data-magellan-target="{{content}}">
+    <h4>{{title}}</h4>
+    {{> content_vers type=content}}
+</div>
+{{/each}}
