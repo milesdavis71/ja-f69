@@ -1,22 +1,22 @@
 numbers:
-  - icon:
+  - icon: mentorált kisdiák
     number: 1000
-    title: huhu
+    title: ösztöndíjas
   - icon:
     number: 2000
-    title: hihi
+    title: érettségi tanfolyamot elvégző
   - icon:
     number: 3000
-    title: haha
+    title: partnerközépiskola
   - icon:
     number: 4000
-    title: hoho
+    title: TM felkészítőt elvégző
   - icon:
     number: 5000
-    title: hehe
+    title: TM mentor
   - icon:
     number: 6000
-    title: huhu
+    title: mentorált kisdiák
 
 pages:
   - title: Főoldal
@@ -45,26 +45,11 @@ pages:
     folder: programok
     icon: calendar
     menu: prog
-    subtitle1: Középiskolai Partneri Program
     suburl1: kozepiskolai_partneri_program
     subtitle2: SZTE Junior Akadémiai Előadások
     suburl2: szte_junior_akademiai_eloadasok
     subtitle3: Versenyek
-    suburl3: versenyek
-    subtitle31: SZTE Juniorok Viadala
-    suburl31: szte_juniorok_viadala
-    subtitle32: SZTE Junior Sakkviadal
-    suburl32: szte_junior_sakkviadal
-    subtitle33: SZTE Junior Innovátorok Ötletverseny
-    suburl33: szte_junior_innovatorok_otletverseny
-    subtitle34: Nobel-Hetek TikTok Videopályázat
-    suburl34: nobel_hetek_tiktok_videopalyazat
-    subtitle35: Both Ödön Közjogtörténeti Emlékverseny
-    suburl35: both_odon_kozjogtorteneti_emlekverseny
-    subtitle36: Bathory István Középiskolai Történelem Tanulmányi Verseny
-    suburl36: bathory_istvan_kozepiskolai_tortenelem_tanulmanyi_verseny
-    subtitle37: Prezentációs Technikák Verseny
-    suburl37: prezentacios_technikak_verseny
+    suburl3:  versenyek
     subtitle4: Osztálykirándulások
     suburl4: osztalykirandulasok
     subtitle5: Workshopok

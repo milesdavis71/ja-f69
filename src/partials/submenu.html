@@ -1,3 +1,6 @@
+TODO LIST:
+megállapítani, mi a baja a menünek.
+
 {{#ifequal type 'main1'}}
 <ul class="menu vertical nested {{#ifpage
   'rolunk'
@@ -24,47 +27,32 @@
     }}
     is-active
     {{/ifpage}}">
-    <li {{#ifpage '{{proba}}' }} class="current" {{/ifpage}}><a href="../{{folder}}/{{suburl1}}.html">{{subtitle1}}</a>
-    </li>
-    <li><a href="../{{folder}}/{{suburl2}}.html">{{subtitle2}}</a></li>
-    <li>
-        <a href="#">{{subtitle3}}</a>
-        {{> versenyek_list}}
-    </li>
-    <li><a href="../{{folder}}/{{suburl4}}.html">{{subtitle4}}</a></li>
-    <li><a href="../{{folder}}/{{suburl5}}.html">{{subtitle5}}</a></li>
-    <li><a href="../{{folder}}/{{suburl6}}.html">{{subtitle6}}</a></li>
-    <li><a href="../{{folder}}/{{suburl7}}.html">{{subtitle7}}</a></li>
+    {{/ifequal}}
 
-</ul>
-</ul>
-{{/ifequal}}
-
-{{#ifequal type 'main3'}}
-<ul class=" menu vertical nested {{#ifpage
+    {{#ifequal type ' main3'}} <ul class=" menu vertical nested {{#ifpage
     'emelt_szintu_erettsegire_felkeszito_tanfolyamok'
     'erettsegi_felkeszito_tanfolyamok_tanarai'
     'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
     'online_erettsegi_felkeszito_tanfolyamok_orarendje'
     'tanfolyamdij-visszaterites'
  }} is-active {{/ifpage}}">
-    {{> submenu_partial}}
-</ul>
-{{/ifequal}} {{#ifequal type 'main4'}}
-<ul class="menu vertical nested {{#ifpage
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main4'}}
+    <ul class="menu vertical nested {{#ifpage
     'szte_intezmenyi_felveteli_pontok'}}
     is-active {{/ifpage}}">
-    {{> submenu_partial}}
-</ul>
-{{/ifequal}} {{#ifequal type 'main5'}}
-<ul class="menu vertical nested {{#ifpage
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main5'}}
+    <ul class="menu vertical nested {{#ifpage
     'fotoalbumok'
     'videok'
 }} is-active {{/ifpage}}">
-    {{> submenu_partial}}
-</ul>
-{{/ifequal}} {{#ifequal type 'main6'}}
-<ul class="menu vertical nested {{#ifpage
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main6'}}
+    <ul class="menu vertical nested {{#ifpage
     'tajekoztato'
     'a_programban_resztvevo_iskolak'
     'palyazat_mentoralasra'
@@ -73,14 +61,14 @@
     'etikai_elvek_es_adatvedelem'
     'kapcsolat_tm'
     'tanitsunk_magyarorszagert_honlap'}} is-active {{/ifpage}}">
-    {{> submenu_partial}}
-</ul>
-{{/ifequal}} {{#ifequal type 'main7'}}
-<ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
-    {{> submenu_partial}}
-</ul>
-{{/ifequal}} {{#ifequal type 'main8'}}
-<ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
-    {{> submenu_partial}}
-</ul>
-{{/ifequal}}
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main7'}}
+    <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main8'}}
+    <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}}

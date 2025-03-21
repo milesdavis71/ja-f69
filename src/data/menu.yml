@@ -35,26 +35,37 @@ pages:
 
   #Programok
   - title: Programok
-    folder: programok
     icon: calendar
     menu: prog
     submenu:
       - title: Középiskolai Partneri Program
-        url: programok/kozepiskolai_partneri_program
+        folder: programok
+        url: kozepiskolai_partneri_program
         page: 'kozepiskolai_partneri_program'
       - title: SZTE Junior Akademiai Előadások
-        url: programok/szte_junior_akademiai_eloadasok
+        folder: programok
+        url: szte_junior_akademiai_eloadasok
         page: 'szte_junior_akademiai_eloadasok'
       - title: Versenyek
-        url: programok/versenyek
+        folder: programok
+        url: versenyek
+        page: 'versenyek'
       - title: Osztálykirándulások
+        folder: programok
         url: osztalykirandulasok
+        page: 'osztalykirandulasok'
       - title: Workshopok
+        folder: programok
         url: workshopok
+        page: 'workshopok'
       - title: Pályaorientációs tanácsadás
+        folder: programok
         url: palyaorientacios_tanacsadas
+        page: 'palyaorientacios_tanacsadas'
       - title: Pályázatok
+        folder: programok
         url: palyazatok
+        page: 'palyazatok'
         
 #Tanfolyamok
   - title: Tanfolyamok

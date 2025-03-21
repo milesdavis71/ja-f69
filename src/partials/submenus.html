@@ -16,5 +16,15 @@
     'kozepiskolai_partneri_program'
     'szte_junior_akademiai_eloadasok'
     'versenyek'
- }} is-active {{/ifpage}}">
+    'osztalykirandulasok'
+    'workshopok'
+    'palyaorientacios_tanacsadas'
+    'palyazatok'
+  }} is-active {{/ifpage}}">
     {{/ifequal}}
+
+
+    {{#ifequal type 'tanf'}}
+    <ul class="menu vertical nested {{#ifpage
+ }} is-active {{/ifpage}}">
+      {{/ifequal}}
