@@ -26,5 +26,36 @@
 
     {{#ifequal type 'tanf'}}
     <ul class="menu vertical nested {{#ifpage
+      'emelt_szintu_erettsegire_felkeszito_tanfolyamok'
+    'erettsegi_felkeszito_tanfolyamok_tanarai'
+    'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
+    'online_erettsegi_felkeszito_tanfolyamok_orarendje'
+    'tanfolyamdij_visszaterites'
  }} is-active {{/ifpage}}">
       {{/ifequal}}
+
+      {{#ifequal type 'felv'}}
+      <ul class="menu vertical nested {{#ifpage
+  'szte_intezmenyi_felveteli_pontok'
+}} is-active {{/ifpage}}">
+        {{/ifequal}}
+
+        {{#ifequal type 'gal'}}
+        <ul class="menu vertical nested {{#ifpage
+'fotoalbumok'
+'videok'
+}} is-active {{/ifpage}}">
+          {{/ifequal}}
+
+          {{#ifequal type 'tm'}}
+          <ul class="menu vertical nested {{#ifpage
+  'tajekoztato'
+  'a_programban_resztvevo_iskolak'
+  'palyazat_mentoralasra'
+  'tm_partnerek'
+  'gyakran_ismetelt_kerdesek'
+  'etikai_elvek_es_adatvedelem'
+  'kapcsolat_tm'
+  'tanitsunk_magyarorszagert_honlap'
+  }} is-active {{/ifpage}}">
+            {{/ifequal}}

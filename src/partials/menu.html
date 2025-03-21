@@ -3,7 +3,7 @@
 <h4>JAAA</h4>
 {{#each menu.pages}}
 <ul class="vertical menu accordion-menu" data-accordion-menu>
-    <li>
+    <li {{#ifpage page}} class="current" {{/ifpage}}>
         <a href="../{{url}}.html"><i class="fi-{{icon}}"></i> {{title}}</a>
         {{#if submenu}}
         {{>submenus type=menu}}
