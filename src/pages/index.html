@@ -1,39 +1,99 @@
 ---
 subtitle1: Az SZTE Junior Akadémia tevékenysége számokban
+subtitle2: Aktuális pályázataink, ösztöndíjaink
+subtitle3: Legfontosabb híreink
 ---
 
-{{>slider}}
-
-<div class="callout">
+<p style="font-size: 0.1em;">&emsp;</p>
+<div class="callout small">
+    <p class="subheader">
+        {{subtitle1}}
+    </p>
+    <p>
+        {{#each global.numbers}}
+        ➡️ <span style="color: #cc077b">{{number}}</span> {{title}}<br>
+        {{/each}}
+    </p>
+</div>
+<div class="callout small">
     <p class="text-center">
-        <strong>{{subtitle1}}</strong>
+        <strong>{{subtitle2}}</strong>
     </p>
     <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium" id="test-eq">
-        {{#each global.numbers}}
-        <div class="cell large-4 text-center">
-            <div class="card" data-equalizer-watch>
-                <p class="h1 numbers-card-icon"><i class="step fi-address-book"></i>
-                </p>
-                <p class="h4 numbers-card-number">{{number}}</p>
-                <p class="numbers-card-title">{{title}}</p>
-                </p>
+
+        {{#iterate global.news.huszonot 4}}
+        <div class="cell large-6 text-center">
+
+            <div class="card">
+                <div class="card-divider">
+                    <strong>{{title}}</strong>
+                </div>
+                <div class="card-section">
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell small-12 {{imgclass}}">
+                            <p class="text-{{align}}">
+                                <img class="thumbnail" src="{{root}}assets/img/hirfolyam/{{img}}">
+                            </p>
+                        </div>
+                        <div class="cell small-12 {{contentclass}}">
+                            <p>▶️ {{school}}</p>
+                            {{> md_news_content hir=content}}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        {{/each}}
+        {{/iterate}}
     </div>
 </div>
+<div class="callout small">
+    <p class="text-center">
+        <strong>{{subtitle3}}</strong>
+    </p>
+    <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium" id="test-eq">
+
+        {{#iterate global.news.huszonot 3}}
+        <div class="cell large-4 text-center">
+
+            <div class="card">
+                <div class="card-divider">
+                    <strong>{{title}}</strong>
+                </div>
+                <div class="card-section">
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell small-12 {{imgclass}}">
+                            <p class="text-{{align}}">
+                                <img class="thumbnail" src="{{root}}assets/img/hirfolyam/{{img}}">
+                            </p>
+                        </div>
+                        <div class="cell small-12 {{contentclass}}">
+                            <p>▶️ {{school}}</p>
+                            {{> md_news_content hir=content}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/iterate}}
+    </div>
+</div>
+
 <p>
     Lórum ipse már nem zönki, hanem telő. a kultál szamvartos és lomós vicsót, mint a jogos - és sokszor kérdelő -
     komázs.
-    De a rosszú is bűnőségöket varaflódik, és pergi felődményöket hálmolyázhat, az arca viszont jó prozásokat fojgat,
-    amelyek talán nem magosítnak meg azonnal, de idővel szenkelnek. A hartolás ugyanis nagyon fegyenes prozás, s ketten
-    egyelnek egy ellen. Mert ersetet nészkedik el a legős, amikor talkodik valakit, aki távol van, de az is fejel, aki
+    De a rosszú is bűnőségöket varaflódik, és pergi felődményöket hálmolyázhat, az arca viszont jó prozásokat
+    fojgat,
+    amelyek talán nem magosítnak meg azonnal, de idővel szenkelnek. A hartolás ugyanis nagyon fegyenes prozás, s
+    ketten
+    egyelnek egy ellen. Mert ersetet nészkedik el a legős, amikor talkodik valakit, aki távol van, de az is fejel,
+    aki
     bizál
     rá, mielőtt vizsgázott volna rozásai balijáról. A zsiktes, aki nem pódzja, mit kódnak róla, porvány rajtja lesz,
     mert
     egyrészt valaki nemléteskedi, másrészt levél dicső zúrának sizálja. Több rozás nem hedvezett, s az éjszaka is
     jánkodt.
-    Körvét azonban éjjel sem ácsolta forgatnia sistosság proka, folyvást azon dürcölt, s végül élezte, hogy nem szedő
+    Körvét azonban éjjel sem ácsolta forgatnia sistosság proka, folyvást azon dürcölt, s végül élezte, hogy nem
+    szedő
     nyelit
     süveznie pelecska ellen. Ebben a gélyében aztán el is jubályogt.
 </p>
@@ -42,11 +102,15 @@ subtitle1: Az SZTE Junior Akadémia tevékenysége számokban
     hátul
     két fogásak, zataj irácsokkal, de híző fodály nélkül. Szintén a hatlan haságok már menzés zagatottak, amiknek
     üdvösét
-    úgy 30 szédelyező szitus után lehet csak csapkodnia a sadt kérvégben. Két vézőség réne enység morjaskom hirtesdije
-    legalább 50 szőkepbe riázott, így utólag nem is biztos, hogy negetette, de minden ecsehetésre jól érsernyelnek, és a
+    úgy 30 szédelyező szitus után lehet csak csapkodnia a sadt kérvégben. Két vézőség réne enység morjaskom
+    hirtesdije
+    legalább 50 szőkepbe riázott, így utólag nem is biztos, hogy negetette, de minden ecsehetésre jól érsernyelnek,
+    és a
     velük egy ervetségben gulanós tetérdő csuhajtásoktól heli henyhető kucája lett a két csibének. Nagyon nyákony
-    vegyekezés, ahogy a södés vidervénye után csüleg kucát adva ortoskodnak a kania tozások. Összegezve egy nagyon táros
-    tülés a táskor nacinás S, ami nagyon sok bolyókot bugyos, fosztó színetésre nem nagyon fösvéd, télen (óhajnácsban)
+    vegyekezés, ahogy a södés vidervénye után csüleg kucát adva ortoskodnak a kania tozások. Összegezve egy nagyon
+    táros
+    tülés a táskor nacinás S, ami nagyon sok bolyókot bugyos, fosztó színetésre nem nagyon fösvéd, télen
+    (óhajnácsban)
     egyences. Partóban, a kényszerű szütyökök sersenyező dulagásainak rondozdályán a ködő klizmát egy állott szedés
     szetet
     kamodikálta.
