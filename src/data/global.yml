@@ -1,3 +1,329 @@
+fooldalgallery:
+  "2024_25":
+    ps:
+      - title: hatartalanul_2024_ps
+        url: Határtalanul
+        date: "2024. június 11–15."
+
+gallery:
+  "2024_25":
+  ps:
+  hatartalanul:
+    - title: hatartalanul_2024_ps
+      num: "01"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "02"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "03"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "04"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "05"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "06"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "07"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "08"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "09"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "10"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "11"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "12"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "13"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "14"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "15"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "16"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "17"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "18"
+      width: "1200"
+      height: "900"
+    
+      magellan:
+        osztondijak:
+        - title: START-Ösztöndíj
+          content: start
+        - title: Javíts! ösztöndíj
+          content: javits
+        - title: Zirzen Janka ösztöndíj
+          content: zirzen
+        - title: TALENT – A Kiválósági lista
+          content: talent
+        - title: Vállalati ösztöndíjak
+          content: vallalati
+        - title: Top élelmiszermérnök
+          content: elelmiszermernok
+        - title: SZTE Junior Akadémia Mentor Díj
+          content: mentor
+        - title: Esélyt a középiskolás tehetségnek
+          content: eselyt
+        - title: Altajisztika ösztöndíj
+          content: altajisztika
+        kkp:
+        - title: A programról
+          content: programrol
+        - title: Középiskolás Tehetségek Mentora ösztöndíj
+          content: ktm_osztondij
+        - title: Partneriskolák
+          content: partneriskolak
+        - title: SZTE Juniorok Viadala
+          content: szte_juniorok_viadala
+        - title: Javíts! ösztöndíj
+          content: javits_osztondij
+        versenyek:
+        - title: Bathory Istvan Középiskolai Történelem Tanulmányi Verseny
+          content: bath
+        - title: Both Ödön Kozjogtörténeti Emlékverseny
+          content: both
+        - title: Nobel-Hetek TikTok Videopályázat
+          content: nobel
+        - title: Prezentációs Technikák Verseny
+          content: prez
+        - title: SZTE Junior Innovárotok Ötletverseny
+          content: innov
+        - title: SZTE Junior Sakkviadal
+          content: sakkviadal
+        - title: SZTE Juniorok Viadala
+          content: junviadal 
+
+menu:
+  - title: Főoldal
+    page: index
+    url: index
+    icon:  home
+
+#Rólunk
+  - title: Rólunk
+    folder: rolunk
+    icon: torsos-all
+    menu: rolunk
+    submenu:
+      - title: Munkatársaink
+        page: 'munkatarsaink' 
+        url: rolunk/munkatarsaink
+      - title: Bemutatkozunk
+        page: 'bemutatkozunk'
+        url: rolunk/bemutatkozunk
+      - title: Szegedi Tehetséggondozó Tanács
+        page: 'szegedi_tehetseggondozo_tanacs'
+        url: rolunk/szegedi_tehetseggondozo_tanacs
+      - title: Idővonal
+        url: rolunk/idovonal
+        page: 'idovonal'
+      - title: Sajtómegjelenések
+        url: rolunk/sajtomegjelenesek
+        page: 'sajtomegjelenesek'
+      - title: Partnerek
+        url: rolunk/partnerek
+        page: 'partnerek'
+  
+ #Híreink
+  - title: Híreink
+    page: hireink
+    url: hireink
+    icon: megaphone
+
+ #Programok
+  - title: Programok
+    icon: calendar
+    menu: prog
+    submenu:
+      - title: Középiskolai Partneri Program
+        folder: programok
+        url: kozepiskolai_partneri_program
+        page: 'kozepiskolai_partneri_program'
+      - title: SZTE Junior Akademiai Előadások
+        folder: programok
+        url: szte_junior_akademiai_eloadasok
+        page: 'szte_junior_akademiai_eloadasok'
+      - title: Versenyek
+        folder: programok
+        url: versenyek
+        page: 'versenyek'
+      - title: Osztálykirándulások
+        folder: programok
+        url: osztalykirandulasok
+        page: 'osztalykirandulasok'
+      - title: Workshopok
+        folder: programok
+        url: workshopok
+        page: 'workshopok'
+      - title: Pályaorientációs tanácsadás
+        folder: programok
+        url: palyaorientacios_tanacsadas
+        page: 'palyaorientacios_tanacsadas'
+      - title: Pályázatok
+        folder: programok
+        url: palyazatok
+        page: 'palyazatok'
+        
+#Tanfolyamok
+  - title: Tanfolyamok
+    folder: tanfolyamok
+    icon: projection-screen
+    menu: tanf
+    submenu:
+      - title: Emelt szintű érettségi felkészítési tanfolyamok
+        folder: tanfolyamok
+        url: emelt_szintu_erettsegire_felkeszito_tanfolyamok 
+        page: 'emelt_szintu_erettsegire_felkeszito_tanfolyamok'
+      - title: Érettségi felkészítő tanfolyamok tanárai
+        folder: tanfolyamok
+        url: erettsegi_felkeszito_tanfolyamok_tanarai
+        page: 'erettsegi_felkeszito_tanfolyamok_tanarai'
+      - title: Tantermi érettségi felkészítő tanfolyamok órarendje
+        folder: tanfolyamok
+        url: tantermi_erettsegi_felkeszito_tanfolyamok_orarendje
+        page: 'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
+      - title: Online érettségi felkészítő tanfolyamok órarendje
+        url: online_erettsegi_felkeszito_tanfolyamok_orarendje
+        page: 'online_erettsegi_felkeszito_tanfolyamok_orarendje'
+        folder: tanfolyamok
+      - title: Tanfolyamdíj visszatérítés
+        url: tanfolyamdij_visszaterites
+        folder: tanfolyamok
+        page: 'tanfolyamdij_visszaterites'
+        
+#Ösztöndíjak
+  - title: Ösztöndíjak
+    page: osztondijak
+    url: osztondijak
+    icon: credit-card
+
+#Felvételizőknek
+  - title: Felvételizőknek
+    folder: felvetelizoknek
+    icon: info
+    menu: felv
+    submenu:
+      - title: SZTE intézményi felvételi pontok
+        folder: felvetelizoknek
+        url: szte_intezmenyi_felveteli_pontok 
+        page: 'szte_intezmenyi_felveteli_pontok'
+
+
+#Galériák
+  - title: Galériák
+    folder: galeriak
+    icon: camera
+    menu: gal
+    submenu:
+      - title: Fotóalbumok
+        folder: galeriak
+        url: fotoalbumok 
+        page: 'fotoalbumok'
+      - title: Videók
+        folder: galeriak
+        url: videok 
+        page: 'videok'
+
+
+#Tanítsunk Magyarországért
+  - title: Tanítsunk Magyarországért
+    folder: tanitsunk_magyarorszagert
+    icon: heart
+    menu: tm
+    submenu:
+      - title: Tájékoztató
+        folder: tanitsunk_magyarorszagert
+        url: tajekoztato
+        page: 'tajekoztato'
+      - title: A programban résztvevő iskolák
+        folder: tanitsunk_magyarorszagert
+        url: a_programban_resztvevo_iskolak
+        page: 'a_programban_resztvevo_iskolak'
+      - title: Pályázat mentorálásra
+        folder: tanitsunk_magyarorszagert
+        url: palyazat_mentoralasra
+        page: 'palyazat_mentoralasra'
+      - title: TM partnerek
+        folder: tanitsunk_magyarorszagert
+        url: tm_partnerek
+        page: 'tm_partnerek'
+      - title: Gyakran ismételt kérdések
+        folder: tanitsunk_magyarorszagert
+        url: gyakran_ismetelt_kerdesek
+        page: 'gyakran_ismetelt_kerdesek'
+      - title: Etikai elvekek és adatvédelem
+        folder: tanitsunk_magyarorszagert
+        url: etikai_elvek_es_adatvedelem
+        page: 'etikai_elvek_es_adatvedelem'
+      - title: Kapcsolat TM
+        folder: tanitsunk_magyarorszagert
+        url: kapcsolat_tm
+        page: 'kapcsolat_tm'
+      - title: Tanítsunk Magyarországért honlap
+        folder: tanitsunk_magyarorszagert
+        url: tanitsunk_magyarorszagert_honlap
+        page: 'tanitsunk_magyarorszagert_honlap'
+
+#Kapcsolat
+  - title: Kapcsolat
+    page: kapcsolat
+    url: kapcsolat
+    icon: telephone
+ 
+news:
+  huszonot:
+    - title: hír1
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír1
+    - title: hír2
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír2
+    - title: hír3
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír3
+    - title: hír4
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír4
+    - title: hír5
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/200x150?text=hír5
+
 numbers:
   - icon: mentorált kisdiák
     number: 1000
@@ -17,7 +343,7 @@ numbers:
   - icon:
     number: 6000
     title: mentorált kisdiák
-
+  
 pages:
   - title: Főoldal
     url: index
@@ -112,153 +438,3 @@ pages:
   - title: Kapcsolat
     url: kapcsolat
     icon: telephone
-
-magellan:
-  osztondijak:
-  - title: START-Ösztöndíj
-    content: start
-  - title: Javíts! ösztöndíj
-    content: javits
-  - title: Zirzen Janka ösztöndíj
-    content: zirzen
-  - title: TALENT – A Kiválósági lista
-    content: talent
-  - title: Vállalati ösztöndíjak
-    content: vallalati
-  - title: Top élelmiszermérnök
-    content: elelmiszermernok
-  - title: SZTE Junior Akadémia Mentor Díj
-    content: mentor
-  - title: Esélyt a középiskolás tehetségnek
-    content: eselyt
-  - title: Altajisztika ösztöndíj
-    content: altajisztika
-  kkp:
-  - title: A programról
-    content: programrol
-  - title: Középiskolás Tehetségek Mentora ösztöndíj
-    content: ktm_osztondij
-  - title: Partneriskolák
-    content: partneriskolak
-  - title: SZTE Juniorok Viadala
-    content: szte_juniorok_viadala
-  - title: Javíts! ösztöndíj
-    content: javits_osztondij
-  versenyek:
-  - title: Bathory Istvan Középiskolai Történelem Tanulmányi Verseny
-    content: bath
-  - title: Both Ödön Kozjogtörténeti Emlékverseny
-    content: both
-  - title: Nobel-Hetek TikTok Videopályázat
-    content: nobel
-  - title: Prezentációs Technikák Verseny
-    content: prez
-  - title: SZTE Junior Innovárotok Ötletverseny
-    content: innov
-  - title: SZTE Junior Sakkviadal
-    content: sakkviadal
-  - title: SZTE Juniorok Viadala
-    content: junviadal 
-  
- 
-gallery:
-"2024_25":
-ps:
-hatartalanul:
-  - title: hatartalanul_2024_ps
-    num: "01"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "02"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "03"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "04"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "05"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "06"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "07"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "08"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "09"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "10"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "11"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "12"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "13"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "14"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "15"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "16"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "17"
-    width: "1200"
-    height: "900"
-  - title: hatartalanul_2024_ps
-    num: "18"
-    width: "1200"
-    height: "900"
-
-fooldalgallery:
-  "2024_25":
-    ps:
-      - title: hatartalanul_2024_ps
-        url: Határtalanul
-        date: "2024. június 11–15."
-
-news:
-  huszonot:
-    - title: hír1
-      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír1
-    - title: hír2
-      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír2
-    - title: hír3
-      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír3
-    - title: hír4
-      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír4
-    - title: hír5
-      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír5
