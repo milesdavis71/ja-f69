@@ -18,8 +18,6 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
-      "redhat.vscode-yaml"
-      "esbenp.prettier-vscode"
 
     ];
 

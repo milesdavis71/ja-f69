@@ -129,6 +129,55 @@ gallery:
         - title: SZTE Juniorok Viadala
           content: junviadal 
 
+
+magellan:
+  osztondijak:
+  - title: START-Ösztöndíj
+    content: start
+  - title: Javíts! ösztöndíj
+    content: javits
+  - title: Zirzen Janka ösztöndíj
+    content: zirzen
+  - title: TALENT – A Kiválósági lista
+    content: talent
+  - title: Vállalati ösztöndíjak
+    content: vallalati
+  - title: Top élelmiszermérnök
+    content: elelmiszermernok
+  - title: SZTE Junior Akadémia Mentor Díj
+    content: mentor
+  - title: Esélyt a középiskolás tehetségnek
+    content: eselyt
+  - title: Altajisztika ösztöndíj
+    content: altajisztika
+  kkp:
+  - title: A programról
+    content: programrol
+  - title: Középiskolás Tehetségek Mentora ösztöndíj
+    content: ktm_osztondij
+  - title: Partneriskolák
+    content: partneriskolak
+  - title: SZTE Juniorok Viadala
+    content: szte_juniorok_viadala
+  - title: Javíts! ösztöndíj
+    content: javits_osztondij
+  versenyek:
+  - title: Bathory Istvan Középiskolai Történelem Tanulmányi Verseny
+    content: bath
+  - title: Both Ödön Kozjogtörténeti Emlékverseny
+    content: both
+  - title: Nobel-Hetek TikTok Videopályázat
+    content: nobel
+  - title: Prezentációs Technikák Verseny
+    content: prez
+  - title: SZTE Junior Innovárotok Ötletverseny
+    content: innov
+  - title: SZTE Junior Sakkviadal
+    content: sakkviadal
+  - title: SZTE Juniorok Viadala
+    content: junviadal 
+  
+
 menu:
   - title: Főoldal
     page: index
@@ -244,7 +293,6 @@ menu:
         url: szte_intezmenyi_felveteli_pontok 
         page: 'szte_intezmenyi_felveteli_pontok'
 
-
 #Galériák
   - title: Galériák
     folder: galeriak
@@ -259,7 +307,6 @@ menu:
         folder: galeriak
         url: videok 
         page: 'videok'
-
 
 #Tanítsunk Magyarországért
   - title: Tanítsunk Magyarországért
@@ -344,97 +391,15 @@ numbers:
     number: 6000
     title: mentorált kisdiák
   
-pages:
-  - title: Főoldal
-    url: index
-    icon:  home
-  - title: Rólunk
-    folder: rolunk
-    icon: torsos-all
-    menu: rolunk
-    subtitle1: Munkatársaink
-    suburl1: munkatarsaink
-    subtitle2: Bemutatkozunk
-    suburl2: bemutatkozunk
-    subtitle3: Szegedi Tehetséggondozó Tanács
-    suburl3: szegedi_tehetseggondozo_tanacs
-    subtitle4: Idővonal
-    suburl4: idovonal
-    subtitle5: Sajtómegjelenések
-    suburl5: sajtomegjelenesek
-    subtitle6: Partnerek
-    suburl6: partnerek
-  - title: Híreink
-    url: hireink
-    icon: megaphone
-  - title: Programok
-    folder: programok
-    icon: calendar
-    menu: prog
-    suburl1: kozepiskolai_partneri_program
-    subtitle2: SZTE Junior Akadémiai Előadások
-    suburl2: szte_junior_akademiai_eloadasok
-    subtitle3: Versenyek
-    suburl3:  versenyek
-    subtitle4: Osztálykirándulások
-    suburl4: osztalykirandulasok
-    subtitle5: Workshopok
-    suburl5: workshopok
-    subtitle6: Pályaorientációs tanácsadás
-    suburl6: palyaorientacios_tanacsadas
-    subtitle7: Pályázatok
-    suburl7: palyazatok
-  - title: Tanfolyamok
-    folder: tanfolyamok
-    icon: projection-screen
-    menu: tanf
-    subtitle1: Emelt szintű érettségire felkészítő tanfolyamok
-    suburl1: emelt_szintu_erettsegire_felkeszito_tanfolyamok
-    subtitle2: Érettségi felkészítő tanfolyamok tanárai
-    suburl2: erettsegi_felkeszito_tanfolyamok_tanarai
-    subtitle3: Tantermi érettségi felkészítő tanfolyamok órarendje
-    suburl3: tantermi_erettsegi_felkeszito_tanfolyamok_orarendje
-    subtitle4: Online érettségi felkészítő tanfolyamok órarendje
-    suburl4:  online_erettsegi_felkeszito_tanfolyamok_orarendje
-    subtitle5: Tanfolyamdíj-visszatérítés
-    suburl5: tanfolyamdij-visszaterites
-  - title: Ösztöndíjak
-    url: osztondijak
-    icon: credit-card
-  - title: Felvételizőknek
-    folder: felvetelizoknek
-    icon: info
-    menu: felv
-    subtitle1: SZTE intézményi felvételi pontok
-    suburl1: szte_intezmenyi_felveteli_pontok
-  - title: Galériák
-    folder: galeriak
-    icon: camera
-    menu: gal
-    subtitle1: Fotóalbumok
-    suburl1: fotoalbumok
-    subtitle2: Videók
-    suburl2: videok
-  - title: Tanítsunk Magyarországért
-    folder: tanitsunk_magyarorszagert
-    icon: heart
-    menu: tm
-    subtitle1: Tájékoztató
-    suburl1: tajekoztato
-    subtitle2: A programban résztvevő iskolák
-    suburl2: a_programban_resztvevo_iskolak
-    subtitle3: Pályázat mentorálásra
-    suburl3: palyazat_mentoralasra
-    subtitle4: TM Partnerek
-    suburl4: tm_partnerek
-    subtitle5: Gyakran Ismételt Kérdések
-    suburl5: gyakran_ismetelt_kerdesek
-    subtitle6: Etikai elvek és adatvédelem
-    suburl6: etikai_elvek_es_adatvedelem
-    subtitle7: Kapcsolat TM
-    suburl7: kapcsolat_tm
-    subtitle8: Tanítsunk Magyarországért honlap
-    suburl8: tanitsunk_magyarorszagert_honlap
-  - title: Kapcsolat
-    url: kapcsolat
-    icon: telephone
+osztondijak:
+- title: Start alap, plusz és mester  ösztöndíjak
+  shortcontent:  A Szegedi Tudományegyetem START Program elsősorban a középiskolás diákok egyetemi beilleszkedését és későbbi szakmai fejlődését szolgálja. 
+  hero: yes
+  img: start_hero.jpg
+  url: osztondijak
+- title: Emelt szintű érettségi felkészítő tanfolyam
+  shortcontent:  Lórun ipse 
+  hero: yes
+  img: emelt_szintu_erettsegi_felkeszito_hero.jpg
+  url: osztondijak
+
