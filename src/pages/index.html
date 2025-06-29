@@ -1,6 +1,6 @@
 ---
 subtitle1: Az SZTE Junior Akadémia tevékenysége számokban
-subtitle2: Aktuális pályázataink, ösztöndíjaink
+subtitle2: Aktuális pályázataink, ösztöndíjaink, programjaink
 subtitle3: Legfontosabb híreink
 ---
 
@@ -19,25 +19,30 @@ subtitle3: Legfontosabb híreink
     <p class="text-center">
         <strong>{{subtitle2}}</strong>
     </p>
-    <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium" id="test-eq">
+    <div class="grid-x grid-margin-x">
 
         {{#each global.osztondijak}}
-        <div class="cell large-6 text-center">
+        <div class="cell ">
 
-            <div class="card">
+            <div class="card" data-equalizer-watch>
                 <div class="card-divider">
                     <p class="text-center"><strong>{{title}}</strong></p>
                 </div>
                 <div class="card-section">
                     <div class="grid-x grid-margin-x">
-                        <div class="cell small-6 {{imgclass}}">
+                        <div class="cell small-8 {{contentclass}}">
+                            <p>{{shortcontent}}</p>
+                            {{#if shortcontent2}}
+                            {{shortcontent2}}
+                            <p>{{shortcontent}}</p>
+
+                            {{/if}}
+                            <p class="text-center"><button class="button" href="#">⏩ TOVÁBB</button></p>
+                        </div>
+                        <div class="cell small-4 {{imgclass}}">
                             <p class="text-{{align}}">
                                 <img class="thumbnail" src="{{root}}assets/img//heroes/{{img}}">
                             </p>
-                        </div>
-                        <div class="cell small-6 {{contentclass}}">
-                            <p class="text-left">{{shortcontent}}</p>
-                            <button class="hollow button" href="#">⏩ TOVÁBB</button>
                         </div>
                     </div>
                 </div>

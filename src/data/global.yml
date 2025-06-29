@@ -398,7 +398,8 @@ osztondijak:
   img: start_hero.jpg
   url: osztondijak
 - title: Emelt szintű érettségi felkészítő tanfolyam
-  shortcontent:  Lórun ipse 
+  shortcontent:  'Egyetemre készülsz? Szeretnél minél jobb felvételi eredményt elérni? Megalapoznád egyetemi tanulmányaidat? Felvételi pontokat gyűjtenél?' 
+  shortcontent2:  'Kerülj egy lépéssel közelebb az egyetemhez és jelentkezz emelt szintű érettségire felkészítő tanfolyamainkra! Segítünk a továbbtanulásban!' 
   hero: yes
   img: emelt_szintu_erettsegi_felkeszito_hero.jpg
   url: osztondijak

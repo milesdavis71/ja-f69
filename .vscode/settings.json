@@ -1,4 +1,6 @@
 {
     "editor.defaultFormatter": "vscode.html-language-features",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "IDX.aI.enableInlineCompletion": true,
+    "IDX.aI.enableCodebaseIndexing": true
 }
