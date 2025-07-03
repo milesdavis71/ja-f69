@@ -355,9 +355,11 @@ menu:
  
 news:
   huszonot:
-    - title: hír1
+    - title: Több mint 11 millió forint támogatásban részesültek az SZTE legtehetségesebb hallgatói a Talent díjátadón
       content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír1
+      coverimg:  2024-25/talent-dijatado-2025/talent-dijatado-2025-cover.jpg
+      btntext: Tovább a hírhez
+      url: hirek-2024-25/talent_dijatado
     - title: hír2
       content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
       coverimg:  https://placehold.co/200x150?text=hír2
@@ -397,10 +399,13 @@ osztondijak:
   hero: yes
   img: start_hero.jpg
   url: osztondijak
+  btntext: TOVÁBB
 - title: Emelt szintű érettségi felkészítő tanfolyam
   shortcontent:  'Egyetemre készülsz? Szeretnél minél jobb felvételi eredményt elérni? Megalapoznád egyetemi tanulmányaidat? Felvételi pontokat gyűjtenél?' 
   shortcontent2:  'Kerülj egy lépéssel közelebb az egyetemhez és jelentkezz emelt szintű érettségire felkészítő tanfolyamainkra! Segítünk a továbbtanulásban!' 
   hero: yes
   img: emelt_szintu_erettsegi_felkeszito_hero.jpg
   url: osztondijak
+  btntext: TOVÁBB
+
 

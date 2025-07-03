@@ -24,7 +24,7 @@ subtitle3: Legfontosabb híreink
         {{#each global.osztondijak}}
         <div class="cell ">
 
-            <div class="card" data-equalizer-watch>
+            <div class="card">
                 <div class="card-divider">
                     <p class="text-center"><strong>{{title}}</strong></p>
                 </div>
@@ -37,11 +37,11 @@ subtitle3: Legfontosabb híreink
                             <p>{{shortcontent}}</p>
 
                             {{/if}}
-                            <p class="text-center"><button class="button" href="#">⏩ TOVÁBB</button></p>
+                            {{>btn-center}}
                         </div>
                         <div class="cell small-4 {{imgclass}}">
                             <p class="text-{{align}}">
-                                <img class="thumbnail" src="{{root}}assets/img//heroes/{{img}}">
+                                <img class="thumbnail" src="{{root}}assets/img/heroes/{{img}}">
                             </p>
                         </div>
                     </div>
@@ -61,18 +61,22 @@ subtitle3: Legfontosabb híreink
         <div class="cell large-4 text-center">
 
             <div class="card">
-                <div class="card-divider">
-                    <strong>{{title}}</strong>
-                </div>
+                <a href="../{{url}}.html">
+                    <div class="card-divider">
+                        {{title}}
+                    </div>
+                </a>
                 <div class="card-section">
                     <div class="grid-x grid-margin-x">
                         <div class="cell small-12 {{imgclass}}">
-                            <p class="text-{{align}}">
-                                <img class="thumbnail" src="{{root}}assets/img/hirfolyam/{{img}}">
-                            </p>
+                            <a href="../{{url}}.html">
+                                <p class="text-{{align}}">
+                                    <img class="thumbnail" src="{{root}}assets/img/hirek/{{coverimg}}">
+                                </p>
+                            </a>
                         </div>
                         <div class="cell small-12 {{contentclass}}">
-                            <p>▶️ {{school}}</p>
+                            {{>btn-center}}
                             {{> md_news_content hir=content}}
                         </div>
                     </div>
