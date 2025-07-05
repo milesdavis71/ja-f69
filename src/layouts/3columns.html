@@ -19,20 +19,20 @@ unless specified. --}}
         <div class="grid-y medium-grid-frame">
             <div class="cell medium-auto medium-cell-block-container">
                 <div class="grid-x grid-padding-x">
-                    <div class="cell medium-3 medium-cell-block-y">
-                        {{>menu}}
-
-                    </div>
+                    <div class="cell medium-3 medium-cell-block-y">{{>menu}}</div>
                     <div class="cell medium-9 medium-cell-block-y">
-                        {{>body}}
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell medium-12 large-9">{{> body}}</div>
+                            <div class="cell medium-12 large-3">
+                                {{> news_loop}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             {{>footer}}
-
         </div>
     </div>
-
     <script src="{{root}}assets/js/app.js"></script>
 </body>
 

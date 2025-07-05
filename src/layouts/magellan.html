@@ -15,31 +15,32 @@ unless specified. --}}
 </head>
 
 <body>
-    <div class="cell medium-auto medium-cell-block-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-3">
-                {{>menu}}
-            </div>
-            <div class="cell medium-9">
+    <div class="grid-container">
+        <div class="grid-y medium-grid-frame">
+            <div class="cell medium-auto medium-cell-block-container">
                 <div class="grid-x grid-padding-x">
-                    <div class="cell medium-12 large-9">
-                        {{>body}}
-                    </div>
-                    <div class="cell medium-12 large-3">
-                        {{#ifpage 'kozepiskolai_partneri_program'}}
-                        {{>right_col_menu_kkp}}
-                        {{/ifpage}}
+                    <div class="cell medium-3 medium-cell-block-y">{{>menu}}</div>
+                    <div class="cell medium-9 medium-cell-block-y">
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell medium-12 large-9">{{> body}}</div>
+                            <div class="cell medium-12 large-3">
+                                {{#ifpage 'kozepiskolai_partneri_program'}}
+                                {{>right_col_menu_kkp}}
+                                {{/ifpage}}
 
-                        {{#ifpage 'osztondijak'}}
-                        {{>right_col_menu_osztondijak}}
-                        {{/ifpage}}
+                                {{#ifpage 'osztondijak'}}
+                                {{>right_col_menu_osztondijak}}
+                                {{/ifpage}}
 
-                        {{#ifpage 'versenyek'}}
-                        {{>right_col_menu_versenyek}}
-                        {{/ifpage}}
+                                {{#ifpage 'versenyek'}}
+                                {{>right_col_menu_versenyek}}
+                                {{/ifpage}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            {{>footer}}
         </div>
     </div>
     <script src="{{root}}assets/js/app.js"></script>
