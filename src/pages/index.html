@@ -6,13 +6,19 @@ subtitle3: Legfontosabb híreink
 
 <p style="font-size: 0.1em;">&emsp;</p>
 <div class="callout small">
-    <p class="subheader">
-        {{subtitle1}}
+    <p class="text-center">
+        <strong>{{subtitle1}}</strong>
     </p>
     <p>
+    <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-3">
+
         {{#each global.numbers}}
-        ➡️ <span style="color: #cc077b">{{number}}</span> {{title}}<br>
+        <div class="cell">
+            <span style="font-size: large;">➡️<span style="color: #cc077b"> {{number}}</span> </span> {{title}}
+        </div>
+
         {{/each}}
+    </div>
     </p>
 </div>
 <div class="callout small">
