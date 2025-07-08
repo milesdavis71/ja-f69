@@ -15,7 +15,9 @@ subtitle3: Legfontosabb híreink
         {{#each global.numbers}}
         <div class="cell">
             <p class="text-center">
-                <span style="font-size: large;">➡️<br><span style="color: #cc077b"> {{number}}<br></span> </span>
+                <span style="font-size: large;"><i class="fi-{{icon}}" style="color: #1b3f7b; font-size: x-large;">
+                    </i><br><span style="color: #cc077b">
+                        {{number}}<br></span> </span>
                 {{title}}
             </p>
         </div>
@@ -42,16 +44,16 @@ subtitle3: Legfontosabb híreink
                 </a>
                 <div class="card-section">
                     <div class="grid-x grid-margin-x">
-                        <div class="cell small-12 {{imgclass}}">
+                        <div class="cell" style="margin-top: 0.5em;">
                             <a href="../hirek-2024-25/{{url}}.html">
-                                <p class="text-{{align}}">
-                                    <img class="thumbnail" src="{{coverimg}}">
-                                </p>
+                                <img class="thumbnail" src="{{coverimg}}">
                             </a>
                         </div>
-                        <div class="cell small-12 {{contentclass}}">
+                        <div class="cell">
+                            {{content}}
+                        </div>
+                        <div class="cell" style="margin-top: 0.5em;">
                             {{>btn-center}}
-                            {{> md_news_content hir=content}}
                         </div>
                     </div>
                 </div>
@@ -60,8 +62,9 @@ subtitle3: Legfontosabb híreink
         {{/iterate}}
     </div>
 </div>
-
+<h5>Rövid bemutatkozó szöveg: a mostani szerintem nem jó</h5>
 <p>
+
     Lórum ipse már nem zönki, hanem telő. a kultál szamvartos és lomós vicsót, mint a jogos - és sokszor kérdelő -
     komázs.
     De a rosszú is bűnőségöket varaflódik, és pergi felődményöket hálmolyázhat, az arca viszont jó prozásokat
