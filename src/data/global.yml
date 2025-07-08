@@ -129,27 +129,64 @@ gallery:
         - title: SZTE Juniorok Viadala
           content: junviadal 
 
-
 magellan:
   osztondijak:
-  - title: START-Ösztöndíj
+  - title: START Alap Ösztöndíj
     content: start
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: TOVÁBB
+    url: /osztondijak/osztondijak
+  - title: START Alap Ösztöndíj
+    content: start
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: TOVÁBB
+    url: /osztondijak/osztondijak
+  - title: START Alap Ösztöndíj
+    content: start
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: TOVÁBB
+    url: /osztondijak/osztondijak
   - title: Javíts! ösztöndíj
     content: javits
+    coverimg: https://placehold.co/300x200?text=img_Javíts!
+    btntext: TOVÁBB
+    url: javits_osztondij
   - title: Zirzen Janka ösztöndíj
     content: zirzen
+    coverimg: https://placehold.co/300x200?text=img_Zirzen
+    btntext: TOVÁBB
+    url: zirzen_janka_osztondij
   - title: TALENT – A Kiválósági lista
     content: talent
+    coverimg: https://placehold.co/300x200?text=img_Talent
+    btntext: TOVÁBB
+    url: talent_osztondij
   - title: Vállalati ösztöndíjak
     content: vallalati
+    coverimg: https://placehold.co/300x200?text=img_Vállalati
+    btntext: TOVÁBB
+    url: vallalati_osztondijak
   - title: Top élelmiszermérnök
     content: elelmiszermernok
+    coverimg: https://placehold.co/300x200?text=img_Élelmiszermérnök
+    btntext: TOVÁBB
+    url: top_elelmiszermernok_osztondij
   - title: SZTE Junior Akadémia Mentor Díj
     content: mentor
+    coverimg: https://placehold.co/300x200?text=img_SZTE JA Mentordíj
+    btntext: TOVÁBB
+    url: szte_ja_mentor_dij
   - title: Esélyt a középiskolás tehetségnek
     content: eselyt
+    coverimg: https://placehold.co/300x200?text=img_Esélyt a középisk..
+    btntext: TOVÁBB
+    url: eselyt_a_kozepiskolas_tehetsagnek
   - title: Altajisztika ösztöndíj
     content: altajisztika
+    coverimg: https://placehold.co/300x200?text=img_Altajisztika
+    btntext: TOVÁBB
+    url: altajisztika_osztondij
+
   kkp:
   - title: A programról
     content: programrol
@@ -176,8 +213,7 @@ magellan:
     content: sakkviadal
   - title: SZTE Juniorok Viadala
     content: junviadal 
-  
-
+ 
 menu:
   - title: Főoldal
     page: index
@@ -357,21 +393,36 @@ news:
   huszonot:
     - title: Több mint 11 millió forint támogatásban részesültek az SZTE legtehetségesebb hallgatói a Talent díjátadón
       content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  2024-25/talent-dijatado-2025/talent-dijatado-2025-cover.jpg
+      coverimg:  ../assets/img/hirek/2024-25/talent-dijatado-2025/talent-dijatado-2025-cover.jpg
       btntext: Tovább a hírhez
       url: hirek-2024-25/talent_dijatado
-    - title: hír2
+    - title: Bécsben is „randevúztak” a szegedi egyetemi gyakorlóiskola és a kisújszállási gimnázium diákjai
       content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír2
-    - title: hír3
+      coverimg: https://placehold.co/130?text=hir2
+      btntext: Tovább a hírhez
+      url: hirek-2024-25/becsi_randevu
+    - title: Állatvédelmi előadáson jártak a baksi diákok a SZTE-n
       content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír3
-    - title: hír4
+      coverimg:  https://placehold.co/130?text=hír3
+      url: hirek-2024-25/allatv_eloadas
+      btntext: Tovább a hírhez
+    - title: Európa-nap 2025 – a Szegedi SZC középiskolásainak szerveztek csapatvetélkedőt egyetemisták
       content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír4
-    - title: hír5
+      coverimg:  https://placehold.co/130?text=hír4
+      url: hirek-2024-25/europa_nap_2025
+      btntext: Tovább a hírhez
+    - title: SZTE Prezilimpia 2025 prezentációs verseny
       content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
-      coverimg:  https://placehold.co/200x150?text=hír5
+      coverimg:  https://placehold.co/130?text=hír5
+      url: hirek-2024-25/prezilimpia_2025
+      btntext: Tovább a hírhez
+    - title: Egy nap az egyetemen – Mentoráltak látogatása az SZTE Természettudományi és Informatikai Karán
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/130?text=hír5
+      url: hirek-2024-25/egynap_az_egyetemen
+      btntext: Tovább a hírhez
+
+
 
 numbers:
   - icon: mentorált kisdiák
@@ -405,7 +456,7 @@ osztondijak:
   shortcontent2:  'Kerülj egy lépéssel közelebb az egyetemhez és jelentkezz emelt szintű érettségire felkészítő tanfolyamainkra! Segítünk a továbbtanulásban!' 
   hero: yes
   img: emelt_szintu_erettsegi_felkeszito_hero.jpg
-  url: osztondijak
+  url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
   btntext: TOVÁBB
 
 

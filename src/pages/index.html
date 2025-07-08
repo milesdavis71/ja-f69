@@ -10,53 +10,21 @@ subtitle3: Legfontosabb híreink
         <strong>{{subtitle1}}</strong>
     </p>
     <p>
-    <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-3">
+    <div class="grid-x small-up-2 medium-up-3 large-up-3">
 
         {{#each global.numbers}}
         <div class="cell">
-            <span style="font-size: large;">➡️<span style="color: #cc077b"> {{number}}</span> </span> {{title}}
+            <p class="text-center">
+                <span style="font-size: large;">➡️<br><span style="color: #cc077b"> {{number}}<br></span> </span>
+                {{title}}
+            </p>
         </div>
 
         {{/each}}
     </div>
     </p>
 </div>
-<div class="callout small">
-    <p class="text-center">
-        <strong>{{subtitle2}}</strong>
-    </p>
-    <div class="grid-x grid-margin-x">
-
-        {{#each global.osztondijak}}
-        <div class="cell ">
-
-            <div class="card">
-                <div class="card-divider">
-                    <p class="text-center"><strong>{{title}}</strong></p>
-                </div>
-                <div class="card-section">
-                    <div class="grid-x grid-margin-x">
-                        <div class="cell small-8 {{contentclass}}">
-                            <p>{{shortcontent}}</p>
-                            {{#if shortcontent2}}
-                            {{shortcontent2}}
-                            <p>{{shortcontent}}</p>
-
-                            {{/if}}
-                            {{>btn-center}}
-                        </div>
-                        <div class="cell small-4 {{imgclass}}">
-                            <p class="text-{{align}}">
-                                <img class="thumbnail" src="{{root}}assets/img/heroes/{{img}}">
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{/each}}
-    </div>
-</div>
+{{>osztondijak}}
 <div class="callout small">
     <p class="text-center">
         <strong>{{subtitle3}}</strong>
@@ -66,7 +34,7 @@ subtitle3: Legfontosabb híreink
         {{#iterate global.news.huszonot 3}}
         <div class="cell large-4 text-center">
 
-            <div class="card">
+            <div class="card" data-equalizer-watch>
                 <a href="../{{url}}.html">
                     <div class="card-divider">
                         {{title}}
@@ -75,9 +43,9 @@ subtitle3: Legfontosabb híreink
                 <div class="card-section">
                     <div class="grid-x grid-margin-x">
                         <div class="cell small-12 {{imgclass}}">
-                            <a href="../{{url}}.html">
+                            <a href="../hirek-2024-25/{{url}}.html">
                                 <p class="text-{{align}}">
-                                    <img class="thumbnail" src="{{root}}assets/img/hirek/{{coverimg}}">
+                                    <img class="thumbnail" src="{{coverimg}}">
                                 </p>
                             </a>
                         </div>
