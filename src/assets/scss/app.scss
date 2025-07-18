@@ -87,3 +87,10 @@ is-active-scroll:focus {
     font-style: italic;
 }
 
+// szélesebb display-hez global-with
+
+@media screen and (min-width: 1440px) {
+    .grid-container {
+      max-width: 1366px;
+    }
+  }
