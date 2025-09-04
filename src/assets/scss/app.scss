@@ -94,3 +94,8 @@ is-active-scroll:focus {
       max-width: 1366px;
     }
   }
+
+
+  :root {
+    --light-blue: #{$light-blue};
+  }

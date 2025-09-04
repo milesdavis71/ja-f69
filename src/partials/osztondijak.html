@@ -2,12 +2,12 @@
     <p class="text-center">
         <strong>{{subtitle2}}</strong>
     </p>
-    <div class="grid-x grid-margin-x">
+    <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
 
         {{#each global.osztondijak}}
-        <div class="cell ">
+        <div class="cell small-12 medium-6 large-6">
 
-            <div class="card">
+            <div class="card" data-equalizer-watch>
                 <div class="card-divider">
                     <p class="text-center"><strong>{{title}}</strong></p>
                 </div>
@@ -17,16 +17,15 @@
                             <p>{{shortcontent}}</p>
                             {{#if shortcontent2}}
                             {{shortcontent2}}
-                            <p>{{shortcontent}}</p>
-
                             {{/if}}
-                            {{>btn-center}}
                         </div>
                         <div class="cell small-4 {{imgclass}}">
                             <p class="text-{{align}}">
                                 <img class="thumbnail" src="{{root}}assets/img/heroes/{{img}}">
                             </p>
                         </div>
+                    </div>
+                    <div class="card-section"> {{>btn-center}}
                     </div>
                 </div>
             </div>

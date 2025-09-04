@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ZURB Foundation 6 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/css/foundation.min.css">
+
+    <!-- Foundicons (Foundation ikonok) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+
+    <title>Tantárgyak és oktatási formák</title>
+
+    <style>
+        /* Esztétikus színek az ikonokhoz (Foundation színpaletta alapján) */
+        .icon-yes {
+            color: #3adb76;
+        }
+
+        /* success */
+        .icon-no {
+            color: #cc4b37;
+        }
+
+        /* alert   */
+
+        /* Kisebb ikonméret, jobb sorköz */
+        .fi-check,
+        .fi-x {
+            font-size: 1rem;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body class="grid-container">
+
+    <h3>Tantárgyak és oktatási formák</h3>
+
+    <table class="stack">
+        <thead>
+            <tr>
+                <th rowspan="2">Tantárgy</th>
+                <th colspan="2">Oktatási forma</th>
+            </tr>
+            <tr>
+                <th>Tantermi</th>
+                <th>Online</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Angol</td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Biológia</td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Fizika</td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Földrajz</td>
+                <td>
+                    <span class="fi-x icon-no" aria-hidden="true"></span>
+                    <span class="show-for-sr">Nem elérhető</span>
+                </td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Digitális kultúra (informatika)</td>
+                <td colspan="2">
+                    <span class="badge success">Hibrid</span>
+                    egy időben zajlik az online és a tantermi óra, így bármelyikre tudsz csatlakozni.
+                </td>
+            </tr>
+            <tr>
+                <td>Kémia</td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Magyar nyelv és irodalom</td>
+                <td>
+                    <span class="fi-x icon-no" aria-hidden="true"></span>
+                    <span class="show-for-sr">Nem elérhető</span>
+                </td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Matematika</td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Német</td>
+                <td>
+                    <span class="fi-x icon-no" aria-hidden="true"></span>
+                    <span class="show-for-sr">Nem elérhető</span>
+                </td>
+                <td>
+                    <span class="fi-check icon-yes" aria-hidden="true"></span>
+                    <span class="show-for-sr">Elérhető</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Történelem</td>
+                <td colspan="2">
+                    <span class="badge secondary">Távoktatás</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="help-text">
+        Jelölések: <span class="fi-check icon-yes" aria-hidden="true"></span> elérhető,
+        <span class="fi-x icon-no" aria-hidden="true"></span> nem elérhető.
+    </p>
+
+</body>
+
+</html>
