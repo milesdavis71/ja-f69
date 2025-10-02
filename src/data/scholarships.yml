@@ -1,0 +1,22 @@
+scholarships:
+  - title: "START ösztöndíj"
+    slug: "start"
+    active: true
+    dates: "2025.09.01 – 2025.10.15."
+    shortcontent: "Elsőéves hallgatóknak."
+    url: "/osztondijak/start/"
+
+  - title: "START Mester"
+    slug: "start-mester"
+    active: false
+    dates: "2024.09.01 – 2024.10.15."
+    shortcontent: "Mesterképzésben tanulóknak."
+    url: "/osztondijak/start-mester/"
+
+  - title: "Zirzen Janka"
+    slug: "zirzen-janka"
+    active: true
+    dates: "2025.09.05 – 2025.10.20."
+    shortcontent: "Kiemelkedő teljesítményű hallgatóknak."
+    url: "/osztondijak/zirzen-janka/"
+

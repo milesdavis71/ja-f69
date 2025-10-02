@@ -455,6 +455,7 @@ osztondijak:
   img: start_hero.jpg
   url: osztondijak
   btntext: TOVÁBB
+  active: false
 - title: Emelt szintű érettségi felkészítő tanfolyam
   shortcontent:  'Egyetemre készülsz? Szeretnél minél jobb felvételi eredményt elérni? Megalapoznád egyetemi tanulmányaidat? Felvételi pontokat gyűjtenél?' 
   shortcontent2:  'Kerülj egy lépéssel közelebb az egyetemhez és jelentkezz emelt szintű érettségire felkészítő tanfolyamainkra! Segítünk a továbbtanulásban!' 
@@ -462,5 +463,14 @@ osztondijak:
   img: emelt_szintu_erettsegi_felkeszito_hero.jpg
   url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
   btntext: TOVÁBB
+  active: false
+- title: Zirzen
+  shortcontent:  'Huh uhuhuasdf asdf asddf asdf ' 
+  shortcontent2:  'Hihihi asdf hiasdf hasddf ' 
+  hero: yes
+  img: emelt_szintu_erettsegi_felkeszito_hero.jpg
+  url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
+  btntext: TOVÁBB
+  active: true
 
 
