@@ -13,67 +13,29 @@ layout: default
     <div class="grid-x grid-margin-x">
         <div class="cell small-12">
             <ul class="tabs" data-tabs id="scholarship-tabs">
-                <li class="tabs-title is-active"><a href="#active-scholarships" aria-selected="true">Aktív ösztöndíjak</a></li>
-                <li class="tabs-title"><a data-tabs-target="inactive-scholarships" href="#inactive-scholarships">Lejárt ösztöndíjak</a></li>
+                <li class="tabs-title is-active"><a href="#active-scholarships" aria-selected="true">Aktív
+                        ösztöndíjak</a></li>
+                <li class="tabs-title"><a data-tabs-target="inactive-scholarships" href="#inactive-scholarships">Lejárt
+                        ösztöndíjak</a></li>
             </ul>
             <div class="tabs-content" data-tabs-content="scholarship-tabs">
                 <div class="tabs-panel is-active" id="active-scholarships">
                     <div class="grid-x grid-margin-x" data-equalizer data-equalize-on="medium">
                         {{#each global.osztondijak}}
-                            {{#if active}}
-                                <div class="cell small-4">
-                                    <div class="card" data-equalizer-watch>
-                                        <a href="../{{url}}.html">
-                                            <div class="card-divider">
-                                                {{title}}
-                                            </div>
-                                        </a>
-                                        <div class="card-section">
-                                            <div class="grid-x grid-margin-x">
-                                                <div class="cell small-12 {{imgclass}}">
-                                                    <a href="osztondijak/{{url}}.html">
-                                                        <p class="text-{{align}}">
-                                                            <img class="thumbnail" src="{{coverimg}}">
-                                                        </p>
-                                                        <p>{{content}}</p>
-                                                        <p> {{>btn-center}}</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            {{/if}}
+                        {{#if active}}
+                        {{>osztondijak_card}}
+                        {{/if}}
                         {{/each}}
                     </div>
                 </div>
                 <div class="tabs-panel" id="inactive-scholarships">
                     <div class="grid-x grid-margin-x" data-equalizer data-equalize-on="medium">
                         {{#each global.osztondijak}}
-                            {{#unless active}}
-                                <div class="cell small-4">
-                                    <div class="card" data-equalizer-watch>
-                                        <a href="../{{url}}.html">
-                                            <div class="card-divider">
-                                                {{title}}
-                                            </div>
-                                        </a>
-                                        <div class="card-section">
-                                            <div class="grid-x grid-margin-x">
-                                                <div class="cell small-12 {{imgclass}}">
-                                                    <a href="osztondijak/{{url}}.html">
-                                                        <p class="text-{{align}}">
-                                                            <img class="thumbnail" src="{{coverimg}}">
-                                                        </p>
-                                                        <p>{{content}}</p>
-                                                        <p> {{>btn-center}}</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            {{/unless}}
+                        {{#unless active}}
+                        <div class="cell small-4">
+                            {{>osztondijak_card}}
+                        </div>
+                        {{/unless}}
                         {{/each}}
                     </div>
                 </div>
