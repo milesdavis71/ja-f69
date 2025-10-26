@@ -1,7 +1,18 @@
 <div class="grid-container">
     <div class="grid-x grid-padding-x">
-        <div class="cell medium-2">
+        <div class="cell medium-2 show-for-large">
             {{>menu}}
-
         </div>
-        <div class="cell medium-10">
+        <div class="cell show-for-small-only" style="padding: 0;">
+            <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle></button>
+                <div class="title-bar-title">Menu</div>
+            </div>
+
+            <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
+                <div class="cell">
+                    {{>menu}}
+                </div>
+            </div>
+        </div>
+        <div class="cell auto">

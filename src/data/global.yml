@@ -446,11 +446,78 @@ numbers:
   - icon: torsos-all
     number: 6000
     title: mentorált kisdiák
-  
+
 osztondijak:
-- title: Start alap, plusz és mester  ösztöndíjak
+  - title: START Alap Ösztöndíj
+    content: A Szegedi Tudományegyetem START Program elsősorban a középiskolás diákok egyetemi beilleszkedését és későbbi szakmai fejlődését szolgálja.
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: Tovább a pályázatra
+    active: true
+    url: /osztondijak/start_alap_osztondij
+  - title: START Mester Ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: Tovább a pályázatra
+    url: /osztondijak/start_mester_osztondij
+    active: true
+  - title: START Plusz Ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: Tovább a pályázatra
+    url: /osztondijak/start_plusz_osztondij
+    active: true
+  - title: Javíts! ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Javíts!
+    btntext: Tovább a pályázatra
+    url: /osztondijak/javits_osztondij
+    active: false
+  - title: Zirzen Janka ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Zirzen
+    btntext: Tovább a pályázatra
+    url: /osztondijak/zirzen_janka_osztondij
+    active: false
+  - title: TALENT – A Kiválósági lista
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Talent
+    btntext: Tovább a pályázatra
+    url: /osztondijak/talent_osztondij
+    active: false
+  - title: Vállalati ösztöndíjak
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Vállalati
+    btntext: Tovább a pályázatra
+    url: /osztondijak/vvallalati_osztondijak
+  - title: Top élelmiszermérnök
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Élelmiszermérnök
+    btntext: Tovább a pályázatra
+    url: top_elelmiszermernok_osztondij
+    active: false
+  - title: SZTE Junior Akadémia Mentor Díj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_SZTE JA Mentordíj
+    btntext: Tovább a pályázatra
+    url: /osztondijak/szte_ja_mentor_dij
+    active: false
+  - title: Esélyt a középiskolás tehetségnek
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Esélyt a középisk..
+    btntext: Tovább a pályázatra
+    url: /osztondijak/eselyt_a_kozepiskolas_tehetsagnek
+    active: false
+  - title: Altajisztika ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Altajisztika
+    btntext: Tovább a pályázatra
+    url: /osztondijak/altajisztika_osztondij
+
+
+aktualis:
+- title: Ösztöndíjaink
   align: center
-  shortcontent:  A Szegedi Tudományegyetem START Program elsősorban a középiskolás diákok egyetemi beilleszkedését és későbbi szakmai fejlődését szolgálja. 
+  shortcontent:  Célunk, hogy lehetőségeinkhez mérten minél többféle anyagi támogatást nyújtsunk a tehetséges, szorgalmas, már SZTE-n tanuló, vagy leendő SZTE-s hallgatók számára. 
   hero: yes
   img: start_hero.jpg
   url: osztondijak
@@ -464,7 +531,7 @@ osztondijak:
   url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
   btntext: TOVÁBB
   active: false
-- title: Zirzen
+- title: Osztálykirándulások
   shortcontent:  'Huh uhuhuasdf asdf asddf asdf ' 
   shortcontent2:  'Hihihi asdf hiasdf hasddf ' 
   hero: yes

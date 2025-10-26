@@ -9,26 +9,26 @@ subtitle3: Legfontosabb híreink
         <strong>{{subtitle1}}</strong>
     </p>
     <p>
-    <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+    <div class="grid-x" data-equalizer data-equalize-on="medium">
 
         {{#each global.numbers}}
         <div class="cell small-2">
-            <div class="card" data-equalizer-watch style="background-color: var(--light-blue);">
+            <!-- <div class="card" data-equalizer-watch style="background-color: var(--light-blue);"> -->
 
-                <p class="text-center">
-                    <span style="font-size: large;"><i class="fi-{{icon}}" style="color: #1b3f7b; font-size: x-large;">
-                        </i><br><span style="color: #cc077b">
-                            {{number}}<br></span> </span>
-                    {{title}}
-                </p>
-            </div>
+            <p class="text-center">
+                <span style="font-size: large;"><i class="fi-{{icon}}" style="color: #1b3f7b; font-size: x-large;">
+                    </i><br><span style="color: #cc077b">
+                        {{number}}<br></span> </span>
+                {{title}}
+            </p>
+            <!-- </div> -->
         </div>
 
         {{/each}}
     </div>
     </p>
 </div>
-{{>osztondijak}}
+{{>aktualis}}
 <div class="callout small">
     <p class="text-center">
         <strong>{{subtitle3}}</strong>

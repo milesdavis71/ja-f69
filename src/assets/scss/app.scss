@@ -99,3 +99,59 @@ is-active-scroll:focus {
   :root {
     --light-blue: #{$light-blue};
   }
+
+// Footer
+
+  // Változók
+$footer-bg-color: #363636;
+$footer-text-color: #ecf0f1;
+$footer-link-color: #bdc3c7;
+$footer-link-hover-color: #3498db;
+$footer-padding-vertical: 3rem 0 2rem 0;
+$footer-margin-top: 3rem;
+
+// Footer
+.site-footer {
+  margin-top: $footer-margin-top;
+
+  .full-width-bg {
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+    padding: $footer-padding-vertical;
+    width: 100%;
+  }
+
+  h4 {
+    color: $footer-text-color;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .menu {
+    a {
+      color: $footer-link-color;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $footer-link-hover-color;
+      }
+    }
+
+    &.vertical {
+      margin: 0;
+    }
+
+    &.horizontal {
+      li {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

@@ -1,21 +1,40 @@
 ---
-layout: default
+maintitle: Ösztöndíjaink
 ---
-<div class="grid-container">
-    <div class="grid-x grid-margin-x">
-        <div class="cell small-12">
-            <h1>Ösztöndíjak</h1>
-        </div>
-    </div>
-</div>
+
+{{>alap}}
 
 <div class="grid-container">
+    <div class="grid-x grid-margin-x">
+        <div class="cell small-6">
+            <p>Célunk, hogy lehetőségeinkhez mérten minél többféle anyagi támogatást nyújtsunk a
+                tehetséges, szorgalmas, már
+                SZTE-n tanuló, vagy leendő SZTE-s hallgatók számára.
+            </p>
+            <p>
+                Az ösztöndíjakhoz szükséges forrást a Szegedi Tudományegyetem (SZTE), a Pro Talentis Universitatis
+                Alapítvány,
+                és Szeged Megyei Jogú Város Önkormányzata biztosítja egyre bővülő partnerhálózatunk mellett, mely a
+                tehetséges
+                fiatalok támogatását fontosnak tartó, elkötelezett helyi, országos vagy nemzetközi vállalkozásokból épül
+                fel.
+                Munkánk során szorosan együttműködünk a Szegedi Tehetséggondozó Tanáccsal, amely aktívan részt vesz a
+                jelenlegi
+                és a jövőbeni programokhoz szükséges tőkebevonás módjának kidolgozásában, a lehetőségek felkutatásában
+                és a
+                pályázatok elbírálásban.
+            </p>
+        </div>
+        <div class="cell small-6"><img src="{{root}}assets/img/szte-junior-akademia-osztondij_small.jpg" alt="">
+        </div>
+    </div>
     <div class="grid-x grid-margin-x">
         <div class="cell small-12">
             <ul class="tabs" data-tabs id="scholarship-tabs">
                 <li class="tabs-title is-active"><a href="#active-scholarships" aria-selected="true">Aktív
                         ösztöndíjak</a></li>
-                <li class="tabs-title"><a data-tabs-target="inactive-scholarships" href="#inactive-scholarships">Lejárt
+                <li class="tabs-title"><a data-tabs-target="inactive-scholarships" href="#inactive-scholarships">Nem
+                        aktív
                         ösztöndíjak</a></li>
             </ul>
             <div class="tabs-content" data-tabs-content="scholarship-tabs">
