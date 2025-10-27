@@ -1,3 +1,52 @@
+
+aktualis:
+- title: Ösztöndíjaink
+  align: center
+  shortcontent:  Célunk, hogy lehetőségeinkhez mérten minél többféle anyagi támogatást nyújtsunk a tehetséges, szorgalmas, már SZTE-n tanuló, vagy leendő SZTE-s hallgatók számára. 
+  hero: yes
+  img: start_hero.jpg
+  url: osztondijak
+  btntext: TOVÁBB
+  active: false
+- title: Emelt szintű érettségi felkészítő tanfolyam
+  shortcontent:  'Egyetemre készülsz? Szeretnél minél jobb felvételi eredményt elérni? Megalapoznád egyetemi tanulmányaidat? Felvételi pontokat gyűjtenél?' 
+  shortcontent2:  'Kerülj egy lépéssel közelebb az egyetemhez és jelentkezz emelt szintű érettségire felkészítő tanfolyamainkra! Segítünk a továbbtanulásban!' 
+  hero: yes
+  img: emelt_szintu_erettsegi_felkeszito_hero.jpg
+  url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
+  btntext: TOVÁBB
+  active: false
+- title: Osztálykirándulások
+  shortcontent:  'Huh uhuhuasdf asdf asddf asdf ' 
+  shortcontent2:  'Hihihi asdf hiasdf hasddf ' 
+  hero: yes
+  img: emelt_szintu_erettsegi_felkeszito_hero.jpg
+  url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
+  btntext: TOVÁBB
+  active: true
+
+elerhetosegek:
+  - title: Cím
+    icon: map
+    link: https://www.google.com/maps/place/Szeged,+Dugonics+t%C3%A9r+13,+6720/@46.2499666,20.1437853,17z/data=!3m1!4b1!4m6!3m5!1s0x4744886ff72c2fa7:0x6d4bff212d8e49c7!8m2!3d46.2499629!4d20.1463656!16s%2Fg%2F11rg5_3q3f?entry=ttu&g_ep=EgoyMDI1MTAyMi4wIKXMDSoASAFQAw%3D%3D
+    text: 6720 Szeged, Dugonics tér 13.
+  - title: Telefon
+    icon: telephone
+    link: +3662544696
+    text: +36 62 544 696 
+  - title: E-mal cím
+    icon: mail
+    link: info@juniorakademia.hu
+    text: info@juniorakademia.hu 
+  - title: Facebook
+    icon: social-facebook
+    link: https://www.facebook.com/szegedjuniorakademia
+    text: /szegedjuniorakademia 
+  - title: Instagram
+    icon: social-instagram
+    link: https://www.instagram.com/sztejuniorakademia/
+    text: /sztejuniorakademia 
+
 fooldalgallery:
   "2024_25":
     ps:
@@ -128,6 +177,23 @@ gallery:
           content: sakkviadal
         - title: SZTE Juniorok Viadala
           content: junviadal 
+
+hasznoslinkek:
+  - title: SZTE központi honlap felvételizőknek szóló oldala
+    link: https://u-szeged.hu/felveteli
+  - title: SZTE Nyílt Nap
+    link: https://u-szeged.hu/nyiltnap
+  - title: Szegedi Tehetséggondozó Tanács
+    link: https://tehetsegtanacs.hu/
+  - title: Felvi.hu – „Minden, ami felsőoktatás”
+    link: https://www.felvi.hu/
+  - title: Pro Talentis Universitatis Alapítvány
+    link: https://protalentisuni.com/
+  - title: Pro Talentis Universitatis Alapítvány webshop
+    icon: social-instagram
+    link: https://protalentisuni.shopstart.hu/
+  - title: Tanítsunk Magyarországért! Program
+    link: https://www.tanitsunk.hu/hu
 
 magellan:
   osztondijak:
@@ -513,31 +579,5 @@ osztondijak:
     btntext: Tovább a pályázatra
     url: /osztondijak/altajisztika_osztondij
 
-
-aktualis:
-- title: Ösztöndíjaink
-  align: center
-  shortcontent:  Célunk, hogy lehetőségeinkhez mérten minél többféle anyagi támogatást nyújtsunk a tehetséges, szorgalmas, már SZTE-n tanuló, vagy leendő SZTE-s hallgatók számára. 
-  hero: yes
-  img: start_hero.jpg
-  url: osztondijak
-  btntext: TOVÁBB
-  active: false
-- title: Emelt szintű érettségi felkészítő tanfolyam
-  shortcontent:  'Egyetemre készülsz? Szeretnél minél jobb felvételi eredményt elérni? Megalapoznád egyetemi tanulmányaidat? Felvételi pontokat gyűjtenél?' 
-  shortcontent2:  'Kerülj egy lépéssel közelebb az egyetemhez és jelentkezz emelt szintű érettségire felkészítő tanfolyamainkra! Segítünk a továbbtanulásban!' 
-  hero: yes
-  img: emelt_szintu_erettsegi_felkeszito_hero.jpg
-  url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
-  btntext: TOVÁBB
-  active: false
-- title: Osztálykirándulások
-  shortcontent:  'Huh uhuhuasdf asdf asddf asdf ' 
-  shortcontent2:  'Hihihi asdf hiasdf hasddf ' 
-  hero: yes
-  img: emelt_szintu_erettsegi_felkeszito_hero.jpg
-  url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
-  btntext: TOVÁBB
-  active: true
 
 

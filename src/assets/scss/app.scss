@@ -95,6 +95,9 @@ is-active-scroll:focus {
     }
   }
 
+//színek
+
+$light-blue: #5879ae;
 
   :root {
     --light-blue: #{$light-blue};
@@ -124,10 +127,21 @@ $footer-margin-top: 3rem;
   }
 
   h4 {
-    color: $footer-text-color;
+    color:  #5879ae;
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    position: relative;      // hogy az ::after pontosan elhelyezhető legyen
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
     font-weight: 600;
+    &::after {
+      content: "";
+      display: block;
+      // width: 60px;                 // a vonal szélessége
+      height: 1px;                 // a vonal vastagsága
+      background-color: #E91E63;   // a vonal színe (pl. primary)
+      margin-top: 0.5rem;          // távolság a cím és a vonal között
+      border-radius: 2px;          // kis lekerekítés, elegánsabb
+    }
   }
 
   p {
@@ -138,9 +152,11 @@ $footer-margin-top: 3rem;
 
   .menu {
     a {
-      color: $footer-link-color;
-      transition: color 0.3s ease;
-
+      display: inline-block; // szebb spacing
+      padding: 0.3rem 0;    // minimális függőleges tér
+      color: var(--footer-link-color);
+      text-decoration: none;
+      transition: color 0.2s ease-in-out;
       &:hover {
         color: $footer-link-hover-color;
       }
@@ -148,6 +164,7 @@ $footer-margin-top: 3rem;
 
     &.vertical {
       margin: 0;
+      padding: 0;
     }
 
     &.horizontal {
@@ -156,4 +173,5 @@ $footer-margin-top: 3rem;
       }
     }
   }
+
 }
