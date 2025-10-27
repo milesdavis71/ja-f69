@@ -126,10 +126,20 @@ $footer-margin-top: 3rem;
     width: 100%;
   }
 
+
+
   h4 {
     color:  #5879ae;
     font-size: 1.2rem;
     position: relative;      // hogy az ::after pontosan elhelyezhető legyen
+    margin-top: 2rem; // alap: small (mobil)
+    text-align: center;
+
+    // Foundation mixin: medium és fölötte
+    @include breakpoint(medium) {
+      margin-top: 0;
+      text-align: left;
+    }
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
     font-weight: 600;
